@@ -1,0 +1,22 @@
+#screenshot-photoGram-desktop {
+  background-image: url("./photo-gram-image.jpg");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 50px;
+  bottom: 0;
+}
+#screenshot-photoGram-mobile {
+  background-image: url("./iphone.jpg");
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 50px;
+  bottom: 0;
+}

@@ -1,0 +1,28 @@
+nav {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  animation: fadeIn 2s ease-in-out;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+nav ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: grey;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+nav ul li a:hover {
+  color: black;
+}
+nav ul li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}

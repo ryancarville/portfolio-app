@@ -1,0 +1,16 @@
+.contact-wrapper {
+  text-align: center;
+  padding-top: 150px;
+}
+.contact-wrapper h2 {
+  margin: 0;
+}
+.contact-wrapper p {
+  font-size: 20px;
+  line-height: 2em;
+}
+.contact-wrapper a {
+  text-decoration: none;
+  display: inline-block;
+  animation: grow 2s 2s ease-in-out;
+}

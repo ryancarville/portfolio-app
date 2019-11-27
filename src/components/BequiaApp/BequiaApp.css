@@ -1,0 +1,34 @@
+#screenshot-bequia-desktop {
+  background-image: url("./bequia-forum-image.jpg");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 50px;
+  bottom: 0;
+}
+#screenshot-bequia-mobile {
+  background-image: url("./iphone.jpg");
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 50px;
+  bottom: 0;
+}
+
+.demo-select {
+  cursor: pointer;
+  border: 1px solid black;
+  width: 20%;
+  padding: 5px;
+  text-align: center;
+}
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn 1s 1s ease-in-out forwards;
+}
