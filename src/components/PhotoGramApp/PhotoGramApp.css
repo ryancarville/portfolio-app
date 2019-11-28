@@ -1,22 +1,72 @@
-#screenshot-photoGram-desktop {
+#screenshot-photo-gram-desktop {
+  display: block;
   background-image: url("./photo-gram-image.jpg");
-  background-size: 80%;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: auto;
+  height: 250px;
   position: relative;
-  margin-top: 50px;
+  margin-top: 40px;
   bottom: 0;
 }
-#screenshot-photoGram-mobile {
+#screenshot-photo-gram-mobile {
   background-image: url("./iphone.jpg");
-  background-size: 30%;
+  background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: auto;
+  height: 320px;
   position: relative;
   margin-top: 50px;
+
   bottom: 0;
+}
+
+.demo-select {
+  cursor: pointer;
+  border: 1px solid black;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+}
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn 1s 1s ease-in-out forwards;
+}
+@media only screen and (min-width: 700px) {
+  #screenshot-photo-gram-desktop {
+    background-image: url("./photo-gram-image.jpg");
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 50px;
+    bottom: 0;
+  }
+  #screenshot-photo-gram-mobile {
+    background-image: url("./iphone.jpg");
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 50px;
+    bottom: 0;
+  }
+
+  .demo-select {
+    cursor: pointer;
+    border: 1px solid black;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+  }
+  .fadeIn {
+    opacity: 0;
+    animation: fadeIn 1s 1s ease-in-out forwards;
+  }
 }

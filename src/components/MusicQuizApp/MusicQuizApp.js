@@ -27,6 +27,9 @@ export default class BequiaApp extends Component {
       }
     }, 5);
   };
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
 
   render() {
     return (
@@ -34,12 +37,12 @@ export default class BequiaApp extends Component {
         <article className="project-wrapper">
           {this.state.demo_size === "desktop" ? (
             <div
-              id="screenshot-musicQuiz-desktop"
+              id="screenshot-music-quiz-desktop"
               className={this.state.fadeIn}
             />
           ) : (
             <div
-              id="screenshot-musicQuiz-mobile"
+              id="screenshot-music-quiz-mobile"
               className={this.state.fadeIn}
             />
           )}

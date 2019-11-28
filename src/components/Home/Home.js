@@ -6,38 +6,50 @@ export default class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      classAnimation: "hideUntilLoaded",
-      adjective: "passionate"
+      classAnimation: "",
+      adjective: "creative",
+      startWordLoop: false
     };
   }
   rotateWords = () => {
-    const words = ["passionate", "self-taught", "committed"];
+    const words = ["creative", "curious", "courageous"];
     let i = 0;
-    setInterval(() => {
-      console.log(i);
-      this.setState({
-        adjective: words[i]
-      });
-      i++;
-      if (i === words.length) {
-        i = 0;
-      }
-    }, 4000);
+    if (this.state.startWordLoop) {
+      setInterval(() => {
+        this.setState({
+          adjective: words[i]
+        });
+        i++;
+        if (i === words.length) {
+          i = 0;
+        }
+      }, 4000);
+    }
   };
   componentDidMount() {
+    window.scrollTo(0, 0);
     this.setState({
+      startWordLoop: true,
       classAnimation: "fadeIn"
     });
     this.rotateWords();
   }
-
+  componentWillUnmount() {
+    this.setState({
+      startWordLoop: false
+    });
+  }
   render() {
     return (
       <section className={this.state.classAnimation + " " + "section-wrapper"}>
         <article id="home">
           <header>
             <p id="home-hello">
-              Hello there! <div id="waving-hand-emoji">👋</div> I'm Ryan
+              Hello there!{" "}
+              <span id="waving-hand-emoji" role="img" aria-label="emoji">
+                👋
+              </span>{" "}
+              I'm Ryan
             </p>
             <p id="home-tag">
               A{" "}
@@ -50,8 +62,7 @@ export default class Home extends Component {
               About me
             </Link>
           </header>
-
-          <div id="color-box"></div>
+          <span className="color-box" />
         </article>
       </section>
     );

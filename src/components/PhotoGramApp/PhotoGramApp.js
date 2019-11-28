@@ -27,11 +27,25 @@ export default class BequiaApp extends Component {
       }
     }, 5);
   };
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
 
   render() {
     return (
       <section className="section-wrapper" id="project-1">
         <article className="project-wrapper">
+          {this.state.demo_size === "desktop" ? (
+            <div
+              id="screenshot-photo-gram-desktop"
+              className={this.state.fadeIn}
+            />
+          ) : (
+            <div
+              id="screenshot-photo-gram-mobile"
+              className={this.state.fadeIn}
+            />
+          )}
           <div className="project-info">
             <span>
               <p className="project-title">PhotoGram App</p>
@@ -46,8 +60,9 @@ export default class BequiaApp extends Component {
               )}
               <p className="project-text">
                 PhotoGram is a Full Stack Web App for private photo archiving.
-                Utilizes a RESTful API partnered with a PostgreSQL Database with
-                JWT Auth.
+                Features include album creation, taging and captioning all
+                images. Utilizes a RESTful API partnered with a PostgreSQL
+                Database and JWT Authentication.
               </p>
             </span>
             <span className="project-technologies">
@@ -142,18 +157,6 @@ export default class BequiaApp extends Component {
               <p>Live Site</p>
             </a>
           </div>
-
-          {this.state.demo_size === "desktop" ? (
-            <div
-              id="screenshot-photoGram-desktop"
-              className={this.state.fadeIn}
-            />
-          ) : (
-            <div
-              id="screenshot-photoGram-mobile"
-              className={this.state.fadeIn}
-            />
-          )}
         </article>
       </section>
     );

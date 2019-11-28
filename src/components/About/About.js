@@ -6,6 +6,10 @@ export default class About extends Component {
     super(props);
     this.state = {};
   }
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <section className="section-wrapper">
@@ -25,7 +29,7 @@ export default class About extends Component {
             <a
               href="https://www.thinkful.com/"
               target="_blank"
-              rel="noopener nolooper"
+              rel="noopener noreferrer"
             >
               Thinkful
             </a>
@@ -39,20 +43,18 @@ export default class About extends Component {
           <article>
             <div id="about-langs">
               <h3>My current stack of languages/technoliges are:</h3>
-              <p>
-                <b>
-                  <span className="about-lang-item">React</span> -{" "}
-                  <span className="about-lang-item">JavaScript</span> -{" "}
-                  <span className="about-lang-item">Redux</span> -{" "}
-                  <span className="about-lang-item">Node.js</span> -{" "}
-                  <span className="about-lang-item">PostgreSQl</span> -{" "}
-                  <span className="about-lang-item">Knex</span> -
-                  <span className="about-lang-item">Express</span> -{" "}
-                  <span className="about-lang-item">HTML5</span> -{" "}
-                  <span className="about-lang-item">CSS3</span> -{" "}
-                  <span className="about-lang-item">SASS</span>
-                </b>
-              </p>
+              <div id="about-langs-items">
+                <span className="about-lang-item">React</span>
+                <span className="about-lang-item">JavaScript</span>
+                <span className="about-lang-item">Redux</span>
+                <span className="about-lang-item">Node.js</span>
+                <span className="about-lang-item">PostgreSQl</span>
+                <span className="about-lang-item">Knex</span>
+                <span className="about-lang-item">Express</span>
+                <span className="about-lang-item">HTML5</span>
+                <span className="about-lang-item">CSS3</span>
+                <span className="about-lang-item">SASS</span>
+              </div>
             </div>
             <div id="about-links">
               <h3>Online Docs and Profiles</h3>

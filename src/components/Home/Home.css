@@ -1,18 +1,19 @@
 #home {
   width: 100%;
-  height: 100%;
+  height: auto;
   text-align: right;
   background-color: slategray;
-  top: 0;
+
   overflow: hidden;
 }
-#color-box {
-  position: relative;
-  margin-left: -10%;
+.color-box {
+  display: block;
   width: 100%;
-  height: 100%;
+  height: 500px;
   background-color: snow;
-  transform: rotate(45deg);
+  margin-top: 20%;
+  margin-left: 10%;
+  transform: rotate(-45deg);
 }
 #home-about-link {
   color: white;
@@ -20,7 +21,7 @@
   background-image: linear-gradient(
     to bottom,
     rgba(4, 0, 255, 0.5),
-    rgba(0, 255, 200, 1)
+    rgb(80, 80, 80)
   );
   width: 180px;
   height: 40px;
@@ -30,6 +31,7 @@
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
+  text-shadow: black 2px 2px;
   margin-top: 150px;
   opacity: 0;
   animation: fadeIn 2s 3s ease-in-out forwards;
@@ -46,18 +48,80 @@
 }
 #waving-hand-emoji {
   display: inline-block;
-  animation: waving 2s 4s;
+  animation: waving 2s 4s ease-in-out;
 }
 #home-tag {
-  font-size: 25px;
+  font-size: 18px;
   font-style: italic;
   margin: 0;
   margin-bottom: 20px;
+  width: 100%;
+  text-align: right;
 }
 #home-tag span {
   display: inline-block;
-  width: 130px;
+  width: 100px;
   text-align: center;
   animation: fallIn 4s 6s ease-in-out infinite;
-  /* animation: fallAway 3s ease-in-out infinite; */
+}
+
+@media only screen and (min-width: 700px) {
+  #home {
+    display: block;
+    height: 770px;
+    margin-top: -50px;
+  }
+  .color-box {
+    margin-top: 0px;
+    margin-left: -8%;
+    height: 100%;
+    background-color: snow;
+    transform: rotate(45deg);
+  }
+  #home-about-link {
+    color: white;
+    border-radius: 25px;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(4, 0, 255, 0.5),
+      rgb(80, 80, 80)
+    );
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin-top: 150px;
+    opacity: 0;
+    animation: fadeIn 2s 3s ease-in-out forwards;
+  }
+  #home header {
+    margin-top: 15%;
+    margin-right: 15%;
+    color: white;
+    animation: flyFromRight 3s 0.5s ease-in-out;
+  }
+  #home-hello {
+    font-size: 40px;
+    margin: 0;
+  }
+  #waving-hand-emoji {
+    display: inline-block;
+    animation: waving 2s 4s;
+  }
+  #home-tag {
+    font-size: 25px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  #home-tag span {
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+    animation: fallIn 4s 6s ease-in-out infinite;
+  }
 }

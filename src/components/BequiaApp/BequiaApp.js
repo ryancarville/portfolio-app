@@ -27,6 +27,9 @@ export default class BequiaApp extends Component {
       }
     }, 5);
   };
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
 
   render() {
     return (
@@ -52,8 +55,9 @@ export default class BequiaApp extends Component {
               <p className="project-text">
                 Bequia Forum is a Full Stack Platform developed for the
                 pituresque island of Bequia. Message boards, Events Calendar,
-                Market Place and more. Utilizes a RESTful API partnered with a
-                PostgreSQL Database.
+                Market Place and more can be utilized by logged in users and
+                public users can read and search the app. Utilizes a RESTful API
+                partnered with a PostgreSQL Database.
               </p>
             </span>
             <span className="project-technologies">

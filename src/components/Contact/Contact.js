@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import "./Contact.css";
 
 export default class Contact extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <section className="section-wrapper contact-wrapper">
