@@ -60,7 +60,7 @@
 }
 #home-tag span {
   display: inline-block;
-  width: 100px;
+  width: 110px;
   text-align: center;
   animation: fallIn 4s 6s ease-in-out infinite;
 }
@@ -120,7 +120,7 @@
   }
   #home-tag span {
     display: inline-block;
-    width: 130px;
+    width: 140px;
     text-align: center;
     animation: fallIn 4s 6s ease-in-out infinite;
   }

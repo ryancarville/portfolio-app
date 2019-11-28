@@ -12,9 +12,9 @@ export default class Home extends Component {
     };
   }
   rotateWords = () => {
-    const words = ["creative", "curious", "courageous"];
-    let i = 0;
-    if (this.state.startWordLoop) {
+    if (this.state.startWordLoop === true) {
+      const words = ["creative", "curious", "courageous"];
+      let i = 0;
       setInterval(() => {
         this.setState({
           adjective: words[i]
@@ -32,7 +32,9 @@ export default class Home extends Component {
       startWordLoop: true,
       classAnimation: "fadeIn"
     });
-    this.rotateWords();
+    setTimeout(() => {
+      this.rotateWords();
+    }, 50);
   }
   componentWillUnmount() {
     this.setState({
