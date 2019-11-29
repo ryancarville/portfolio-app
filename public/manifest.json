@@ -8,12 +8,17 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "/images/bequia-logo.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "204x156"
     },
     {
-      "src": "logo512.png",
+      "src": "images/camera.png",
+      "type": "image/png",
+      "sizes": "340x340"
+    },
+    {
+      "src": "images/headphones.png",
       "type": "image/png",
       "sizes": "512x512"
     }

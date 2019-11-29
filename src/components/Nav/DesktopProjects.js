@@ -26,7 +26,7 @@ export default class DesktopProjects extends Component {
         <li id="nav-project-1">
           <Link to={"/BequiaApp"}>
             <img
-              src="https://bequiaforum.com/images/bequia-logo.png"
+              src="/images/bequia-logo.png"
               alt="forum-icon"
               samesite="none"
             />
@@ -36,7 +36,7 @@ export default class DesktopProjects extends Component {
         <li id="nav-project-2">
           <Link to={"/PhotoGramApp"}>
             <img
-              src="https://beardystudios.com/Bloc_Capstone/photoGram/images/camera.png"
+              src="/images/camera.png"
               alt="logo"
               samesite="none"
             />
@@ -46,7 +46,7 @@ export default class DesktopProjects extends Component {
         <li id="nav-project-3">
           <Link to={"/MusicQuizApp"}>
             <img
-              src="https://beardystudios.com/Bloc_Capstone/photoGram/images/headphones.png"
+              src="/images/headphones.png"
               alt="who-dat-logo"
               samesite="none"
             />{" "}
