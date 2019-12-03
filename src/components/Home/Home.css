@@ -57,9 +57,14 @@
   width: 100%;
   text-align: right;
 }
-#home-tag span {
+#a-in-tag {
+  text-align-last: right;
+  width: 0px;
+  animation: fadeIn 4s 6s ease-in-out infinite;
+}
+#adjective-in-tag {
   display: inline-block;
-  width: 110px;
+  width: auto;
   text-align: center;
   animation: fallIn 4s 6s ease-in-out infinite;
 }
@@ -117,10 +122,16 @@
     margin: 0;
     margin-bottom: 20px;
   }
-  #home-tag span {
+  #a-in-tag {
+    text-align-last: right;
+    margin-right: 10px;
+    animation: fadeInOut 4s 6s ease-in-out infinite;
+  }
+  #adjective-in-tag {
     display: inline-block;
-    width: 140px;
+    width: auto;
     text-align: center;
+    margin-right: 5px;
     animation: fallIn 4s 6s ease-in-out infinite;
   }
 }

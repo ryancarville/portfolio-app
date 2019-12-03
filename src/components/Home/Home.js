@@ -54,8 +54,10 @@ export default class Home extends Component {
               I'm Ryan
             </p>
             <p id="home-tag">
-              A{" "}
-              <span>
+              <span id="a-in-tag" width="10">
+                A
+              </span>
+              <span id="adjective-in-tag">
                 <b>{this.state.adjective}</b>
               </span>{" "}
               Full Stack Developer
