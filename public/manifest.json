@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Full Stack Portfolio",
+  "name": "Ryan Carville Full Stack Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -25,7 +25,7 @@
     {
       "src": "/images/not-found.jpg",
       "type": "image/jpg",
-      "sizes": "718×818"
+      "sizes": "818x718"
     }
   ],
   "start_url": ".",

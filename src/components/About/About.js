@@ -18,12 +18,12 @@ export default class About extends Component {
         </header>
         <article id="about-text">
           <p>
-            I am Ryan, a self starting, creative mind curently based in Zurich,
-            Switzerland. After creating two sucessful commercial photography
-            studios in New York City and San Francsico, I began to see the
-            importance of development as it was becoming an intricual part of
+            I am Ryan, a self starting, creative mind currently based in Zurich,
+            Switzerland. After creating two successful commercial photography
+            studios in New York City and San Francisco, I began to see the
+            importance of development as it was becoming an interracial part of
             the photography industry. In 2018 I decided to take a leap into the
-            Full Stack development game and have been activly obtaining as much
+            Full Stack development game and have been actively obtaining as much
             knowledge as I can. In January 2019, I began the Full Stack Wed
             Developers course offered by{" "}
             <a
@@ -34,15 +34,15 @@ export default class About extends Component {
               Thinkful
             </a>
             . It provided me with a solid foundation in JavaScript, React,
-            Node.js, PostgreSQl and many other technoliges. In addtional to the
-            course, I consumed as many books and online tutrorials about any and
-            all web technolgies and continue to each day. Learning new skills
-            and languages is a major part of this industry and it is something I
-            find challenaging but more so rewarding.
+            Node.js, PostgreSQL and many other technologies. In additional to
+            the course, I consumed as many books and online tutorials about any
+            and all web technologies and continue to each day. Learning new
+            skills and languages is a major part of this industry and it is
+            something I find challenging but more so rewarding.
           </p>
           <article>
             <div id="about-langs">
-              <h3>My current stack of languages/technoliges are:</h3>
+              <h3>My current stack of languages/technologies are:</h3>
               <div id="about-langs-items">
                 <span className="about-lang-item">React</span>
                 <span className="about-lang-item">JavaScript</span>
