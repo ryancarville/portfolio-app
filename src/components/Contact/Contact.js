@@ -22,6 +22,44 @@ export default class Contact extends Component {
           <br />
           Looking forwar to hearing from you!
         </p>
+
+        <section id="about-links">
+          <header>
+            <h3>Online Docs and Profiles</h3>
+          </header>
+          <aside>
+            <a
+              href="https://drive.google.com/file/d/1pVjLfVzL4eDhskmRPgLazZFr6PuXtT8M/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://enterpriseengineeringnetwork.org/images/resume-png-1.png"
+                alt="resume-icon"
+              />
+            </a>
+            <a
+              href="https://github.com/ryancarville"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://image.flaticon.com/icons/png/512/25/25231.png"
+                alt="github-icon"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ryancarville/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="http://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png"
+                alt="linkedI-icon"
+              />
+            </a>
+          </aside>
+        </section>
       </section>
     );
   }

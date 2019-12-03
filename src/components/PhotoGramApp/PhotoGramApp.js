@@ -59,10 +59,10 @@ export default class BequiaApp extends Component {
                 </p>
               )}
               <p className="project-text">
-                PhotoGram is a Full Stack Web App for private photo archiving.
-                Features include album creation, taging and captioning all
-                images. Utilizes a RESTful API partnered with a PostgreSQL
-                Database and JWT Authentication.
+                PhotoGram is a Full Stack Mobile-First Web App for private photo
+                archiving. Features include album creation, taging and
+                captioning all images. Utilizes a RESTful API partnered with a
+                PostgreSQL Database and JWT Authentication.
               </p>
             </span>
             <span className="project-technologies">

@@ -59,10 +59,10 @@ export default class BequiaApp extends Component {
                 </p>
               )}
               <p className="project-text">
-                Music Quiz App is a pure JavaScript app paired with the Napster
-                API. Multiple game modes and music genres selections from todays
-                top hits to the classic rock n' roll oldies. Hours of fun with
-                friends and family!
+                Music Quiz App is a pure JavaScript Mobile-First app paired with
+                the Napster API. Multiple game modes and music genres selections
+                from todays top hits to the classic rock n' roll oldies. Hours
+                of fun with friends and family!
               </p>
             </span>
             <br />

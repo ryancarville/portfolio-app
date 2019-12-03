@@ -21,9 +21,9 @@ export default class About extends Component {
             I am Ryan, a self starting, creative mind curently based in Zurich,
             Switzerland. After creating two sucessful commercial photography
             studios in New York City and San Francsico, I began to see the
-            importance of development as it was a intricual part of the
-            photography industry. In 2018 I decided to take a leap into the Full
-            Stack development game and have been activly obtaining as much
+            importance of development as it was becoming an intricual part of
+            the photography industry. In 2018 I decided to take a leap into the
+            Full Stack development game and have been activly obtaining as much
             knowledge as I can. In January 2019, I began the Full Stack Wed
             Developers course offered by{" "}
             <a
@@ -56,42 +56,44 @@ export default class About extends Component {
                 <span className="about-lang-item">SASS</span>
               </div>
             </div>
-            <div id="about-links">
-              <h3>Online Docs and Profiles</h3>
-              <div>
-                <a
-                  href="https://drive.google.com/file/d/1pVjLfVzL4eDhskmRPgLazZFr6PuXtT8M/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="https://enterpriseengineeringnetwork.org/images/resume-png-1.png"
-                    alt="resume-icon"
-                  />
-                </a>
-                <a
-                  href="https://github.com/ryancarville"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="https://image.flaticon.com/icons/png/512/25/25231.png"
-                    alt="github-icon"
-                  />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/ryancarville/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="http://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png"
-                    alt="linkedI-icon"
-                  />
-                </a>
-              </div>
-            </div>
           </article>
+          <section id="about-links">
+            <header>
+              <h3>Online Docs and Profiles</h3>
+            </header>
+            <aside>
+              <a
+                href="https://drive.google.com/file/d/1pVjLfVzL4eDhskmRPgLazZFr6PuXtT8M/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://enterpriseengineeringnetwork.org/images/resume-png-1.png"
+                  alt="resume-icon"
+                />
+              </a>
+              <a
+                href="https://github.com/ryancarville"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://image.flaticon.com/icons/png/512/25/25231.png"
+                  alt="github-icon"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ryancarville/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="http://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png"
+                  alt="linkedI-icon"
+                />
+              </a>
+            </aside>
+          </section>
         </article>
       </section>
     );

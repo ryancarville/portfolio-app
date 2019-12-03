@@ -53,14 +53,14 @@ export default class BequiaApp extends Component {
                 </p>
               )}
               <p className="project-text">
-                Bequia Forum is a Full Stack Platform developed for the
+                Bequia Forum is a Full Stack Platform Mobile-First developed for the
                 pituresque island of Bequia. Message boards, Events Calendar,
                 Market Place and more can be utilized by logged in users and
                 public users can read and search the app. Utilizes a RESTful API
                 partnered with a PostgreSQL Database.
               </p>
             </span>
-            <span className="project-technologies">
+            <aside className="project-technologies">
               <p>Technologies</p>
               <div className="technology-wrapper">
                 <div className="technology-item">
@@ -117,7 +117,7 @@ export default class BequiaApp extends Component {
                   <p>CSS5</p>
                 </div>
               </div>
-            </span>
+            </aside>
 
             <span className="git-hub-wrapper">
               <img
