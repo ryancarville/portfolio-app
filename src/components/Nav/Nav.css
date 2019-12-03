@@ -67,11 +67,11 @@ nav ul li img {
     display: block;
   }
   #desktop-nav-projects {
-    width: 35%;
+    width: 100%;
     display: block;
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-start;
+    align-items: center;
     top: 0;
     margin: 0;
     padding: 0;
@@ -88,13 +88,15 @@ nav ul li img {
     width: 100%;
     height: 60px;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     position: fixed;
     z-index: 10;
     animation: fadeIn 2s ease-in-out;
   }
   nav ul {
     display: flex;
-    justify-content: flex-start;
+    
     align-items: center;
     list-style: none;
     margin: 0;
@@ -106,7 +108,6 @@ nav ul li img {
   }
   nav ul li a {
     text-decoration: none;
-
     font-size: 15px;
     display: flex;
     align-items: center;
