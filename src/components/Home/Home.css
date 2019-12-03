@@ -59,13 +59,14 @@
 }
 #a-in-tag {
   text-align-last: right;
-  width: 0px;
-  animation: fadeIn 4s 6s ease-in-out infinite;
+  margin-right: 10px;
+  animation: fadeInOut 4s 6s ease-in-out infinite;
 }
 #adjective-in-tag {
   display: inline-block;
   width: auto;
   text-align: center;
+  margin-right: 5px;
   animation: fallIn 4s 6s ease-in-out infinite;
 }
 
