@@ -6,6 +6,7 @@ import Contact from "../components/Contact/Contact";
 import BequiaApp from "../components/BequiaApp/BequiaApp";
 import PhotoGramApp from "../components/PhotoGramApp/PhotoGramApp";
 import MusicQuizApp from "../components/MusicQuizApp/MusicQuizApp";
+import NotFound from "../components/404/404";
 
 export default function Router(props) {
   return (
@@ -16,6 +17,7 @@ export default function Router(props) {
       <Route path="/BequiaApp" component={BequiaApp} exact />
       <Route path="/PhotoGramApp" component={PhotoGramApp} exact />
       <Route path="/MusicQuizApp" component={MusicQuizApp} exact />
+      <Route component={NotFound} />
     </Switch>
   );
 }
