@@ -8,7 +8,9 @@ export default class Nav extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showProjects: false
+      showProjects: false,
+      dev: true,
+      photo: false
     };
   }
   openProjects = () => {
@@ -21,9 +23,30 @@ export default class Nav extends Component {
       showProjects: false
     });
   };
+  handleDevPhotoToggle = () => {
+    this.setState({
+      dev: !this.state.dev,
+      photo: !this.state.photo
+    });
+    this.props.handleSiteView();
+  };
   render() {
+    var toggleId;
+    var switchId;
+    this.state.dev ? (switchId = "dev-switch") : (switchId = "photo-switch");
+    this.state.dev ? (toggleId = "dev-toggle") : (toggleId = "photo-toggle");
     return (
       <nav>
+        <span id="toggle-swicth-containter">
+          <div id={switchId} onClick={this.handleDevPhotoToggle}>
+            <div id={toggleId}></div>
+            {this.state.dev ? (
+              <i className="fas fa-camera-retro dev-photo-switch-icon"></i>
+            ) : (
+              <i className="fas fa-layer-group dev-photo-switch-icon"></i>
+            )}
+          </div>
+        </span>
         <ul>
           <li id="nav-home" onClick={this.closeProjects}>
             <Link to={"/"}>Home</Link>
@@ -42,6 +65,7 @@ export default class Nav extends Component {
             </li>
           )}
         </ul>
+
         {mobileNav}
       </nav>
     );

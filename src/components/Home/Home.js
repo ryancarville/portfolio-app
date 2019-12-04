@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import SiteContext from "../../SiteContext";
 import "./Home.css";
 
 export default class Home extends Component {
@@ -36,14 +37,18 @@ export default class Home extends Component {
       this.rotateWords();
     }, 50);
   }
+  static contextType = SiteContext;
   componentWillUnmount() {
     this.setState({
       startWordLoop: false
     });
+    if (this.context.appState.devSite) {
+      this.context.handleSiteView();
+    }
   }
   render() {
     return (
-      <section className={this.state.classAnimation + " " + "section-wrapper"}>
+      <section className={this.state.classAnimation + " section-wrapper"}>
         <article id="home">
           <header>
             <p id="home-hello">

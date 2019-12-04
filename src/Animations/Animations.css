@@ -160,3 +160,39 @@
     transform: translateY(0px);
   }
 }
+@-webkit-keyframes slideRight {
+  0% {
+    -webkit-transform: translateX(-20px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0px);
+  }
+}
+@keyframes slideRight {
+  0% {
+    transform: translateX(-20px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+@-webkit-keyframes slideLeft {
+  0% {
+    -webkit-transform: translateX(0px);
+  }
+
+  100% {
+    -webkit-transform: translateX(20px);
+  }
+}
+@keyframes slideLeft {
+  0% {
+    transform: translateX(20px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
