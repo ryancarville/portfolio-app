@@ -20,7 +20,7 @@ export default class DesktopProjects extends Component {
           <i
             className="fas fa-times"
             samesite="none"
-            onClick={this.handleShowProjects}
+            onClick={this.props.handleShowProjects}
           ></i>
         </li>
         <li id="nav-project-1">
@@ -35,11 +35,7 @@ export default class DesktopProjects extends Component {
         </li>
         <li id="nav-project-2">
           <Link to={"/PhotoGramApp"}>
-            <img
-              src="/images/camera.png"
-              alt="logo"
-              samesite="none"
-            />
+            <img src="/images/camera.png" alt="logo" samesite="none" />
             PhotoGram
           </Link>
         </li>
