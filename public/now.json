@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "ryan-carville-portfolio",
+  "name": "Ryan Carville Full Stack Portfolio",
   "routes": [
     {
       "src": "^/static/(.*)",
