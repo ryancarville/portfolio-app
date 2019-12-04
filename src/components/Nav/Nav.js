@@ -37,7 +37,10 @@ export default class Nav extends Component {
       <SiteContext.Consumer>
         {context => (
           <nav>
-            <span id="toggle-swicth-containter">
+            <span
+              id="toggle-swicth-containter"
+              onClick={() => this.closeProjects()}
+            >
               <div id={switchId} onClick={() => this.props.handleSiteView()}>
                 <div id={toggleId}></div>
                 {this.props.appState.devSite ? (
