@@ -8,6 +8,9 @@ import PhotoGramApp from "../components/PhotoGramApp/PhotoGramApp";
 import MusicQuizApp from "../components/MusicQuizApp/MusicQuizApp";
 import NotFound from "../components/404/404";
 import PhotoHome from "../components/PhotoHome/PhotoHome";
+import Food from "../components/PhotoSection/Food/Food";
+import Portraits from "../components/PhotoSection/Portraits/Portraits";
+import Products from "../components/PhotoSection/Products/Products";
 export default function Router(props) {
   return (
     <>
@@ -24,6 +27,9 @@ export default function Router(props) {
         <Route path="/BequiaApp" component={BequiaApp} exact />
         <Route path="/PhotoGramApp" component={PhotoGramApp} exact />
         <Route path="/MusicQuizApp" component={MusicQuizApp} exact />
+        <Route path="/food" component={Food} exact />
+        <Route path="/portraits" component={Portraits} exact />
+        <Route path="/products" component={Products} exact />
         <Route component={NotFound} />
       </Switch>
     </>

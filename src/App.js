@@ -14,15 +14,10 @@ export default class App extends Component {
     };
   }
   handleSiteView = () => {
-    this.setState(
-      {
-        devSite: !this.state.devSite,
-        photoSite: !this.state.photoSite
-      },
-      () => {
-        console.log(this.state);
-      }
-    );
+    this.setState({
+      devSite: !this.state.devSite,
+      photoSite: !this.state.photoSite
+    });
   };
   render() {
     const contextValue = {

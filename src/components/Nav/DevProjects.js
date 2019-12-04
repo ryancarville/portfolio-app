@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-export default class DesktopProjects extends Component {
+export default class DevProjects extends Component {
   render() {
     return (
       <ul id="desktop-nav-projects">
