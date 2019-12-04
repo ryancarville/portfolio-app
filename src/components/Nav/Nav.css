@@ -78,6 +78,7 @@ nav ul li img {
   position: relative;
   margin-top: 15px;
   margin-right: 20px;
+
   float: right;
   opacity: 0;
   animation: fadeIn 1s 3s ease-in-out forwards;
@@ -113,8 +114,9 @@ nav ul li img {
   width: 17px;
   height: 17px;
   border-radius: 100%;
-  margin-top: 1px;
+  margin-top: 2px;
   margin-left: 2px;
+  margin-bottom: 2px;
   border: 1px solid black;
   background-color: slategrey;
   animation: slideLeft 1s forwards;
@@ -123,8 +125,9 @@ nav ul li img {
   width: 17px;
   height: 17px;
   border-radius: 100%;
-  margin-top: 1px;
+  margin-top: 2px;
   margin-right: 2px;
+  margin-bottom: 2px;
   border: 1px solid black;
   background-color: slategrey;
   float: right;
