@@ -21,7 +21,7 @@ export default class MakeImages extends Component {
       images.push(image);
       i++;
     }
-    console.log(images);
+
     if (i === 10) {
       this.setState({
         images: images,
