@@ -17,7 +17,7 @@ export default class Nav extends Component {
     });
   };
   closeProjects = () => {
-    this.SetState({
+    this.setState({
       showProjects: false
     });
   };

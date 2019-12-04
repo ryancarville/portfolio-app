@@ -9,7 +9,7 @@ export default class DesktopProjects extends Component {
           <i
             className="fas fa-times"
             samesite="none"
-            onClick={this.props.closesProjects}
+            onClick={this.props.closeProjects}
           ></i>
         </li>
         <li id="nav-project-1">
