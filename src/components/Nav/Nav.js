@@ -11,9 +11,9 @@ export default class Nav extends Component {
       showProjects: false
     };
   }
-  handleShowProjects = () => {
+  openProjects = () => {
     this.setState({
-      showProjects: !this.state.showProjects
+      showProjects: true
     });
   };
   closeProjects = () => {
@@ -35,12 +35,9 @@ export default class Nav extends Component {
             <Link to={"/contact"}>Contact</Link>
           </li>
           {this.state.showProjects ? (
-            <DesktopPorjects showProjects={this.handleShowProjects} />
+            <DesktopPorjects closeProjects={this.closeProjects} />
           ) : (
-            <li
-              id="desktop-nav-projects-link"
-              onClick={this.handleShowProjects}
-            >
+            <li id="desktop-nav-projects-link" onClick={this.openProjects}>
               Projects
             </li>
           )}

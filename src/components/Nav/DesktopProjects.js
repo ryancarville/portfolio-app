@@ -2,25 +2,14 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 export default class DesktopProjects extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      showProjects: false
-    };
-  }
-  handleShowProjects = () => {
-    this.setState({
-      showProjects: !this.state.showProjects
-    });
-  };
   render() {
-    const desktopNav = (
+    return (
       <ul id="desktop-nav-projects">
         <li>
           <i
             className="fas fa-times"
             samesite="none"
-            onClick={this.props.handleShowProjects}
+            onClick={this.props.closesProjects}
           ></i>
         </li>
         <li id="nav-project-1">
@@ -50,13 +39,6 @@ export default class DesktopProjects extends Component {
           </Link>
         </li>
       </ul>
-    );
-    return this.state.showProjects ? (
-      desktopNav
-    ) : (
-      <li id="desktop-nav-projects-link" onClick={this.handleShowProjects}>
-        Projects
-      </li>
     );
   }
 }
