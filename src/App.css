@@ -1,6 +1,7 @@
 .App {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 .section-wrapper {
   width: 100%;

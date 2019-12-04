@@ -8,9 +8,7 @@ export default class Nav extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showProjects: false,
-      dev: true,
-      photo: false
+      showProjects: false
     };
   }
   openProjects = () => {
@@ -23,24 +21,22 @@ export default class Nav extends Component {
       showProjects: false
     });
   };
-  handleDevPhotoToggle = () => {
-    this.setState({
-      dev: !this.state.dev,
-      photo: !this.state.photo
-    });
-    this.props.handleSiteView();
-  };
+
   render() {
     var toggleId;
     var switchId;
-    this.state.dev ? (switchId = "dev-switch") : (switchId = "photo-switch");
-    this.state.dev ? (toggleId = "dev-toggle") : (toggleId = "photo-toggle");
+    this.props.appState.devSite
+      ? (switchId = "dev-switch")
+      : (switchId = "photo-switch");
+    this.props.appState.devSite
+      ? (toggleId = "dev-toggle")
+      : (toggleId = "photo-toggle");
     return (
       <nav>
         <span id="toggle-swicth-containter">
-          <div id={switchId} onClick={this.handleDevPhotoToggle}>
+          <div id={switchId} onClick={() => this.props.handleSiteView()}>
             <div id={toggleId}></div>
-            {this.state.dev ? (
+            {this.props.appState.devSite ? (
               <i className="fas fa-camera-retro dev-photo-switch-icon"></i>
             ) : (
               <i className="fas fa-layer-group dev-photo-switch-icon"></i>

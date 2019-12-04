@@ -42,9 +42,6 @@ export default class Home extends Component {
     this.setState({
       startWordLoop: false
     });
-    if (this.context.appState.devSite) {
-      this.context.handleSiteView();
-    }
   }
   render() {
     return (

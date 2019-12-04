@@ -32,8 +32,14 @@ export default class App extends Component {
     return (
       <SiteContext.Provider value={contextValue}>
         <div className="App">
-          <Nav handleSiteView={() => this.handleSiteView()} />
-          <Router siteView={this.state} />
+          <Nav
+            handleSiteView={() => this.handleSiteView()}
+            appState={this.state}
+          />
+          <Router
+            siteView={this.state}
+            handleSiteView={() => this.handleSiteView()}
+          />
         </div>
       </SiteContext.Provider>
     );
