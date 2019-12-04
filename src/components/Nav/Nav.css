@@ -1,4 +1,5 @@
-#desktop-nav-projects-link {
+#desktop-nav-projects-link,
+#desktop-nav-photos-link {
   display: none;
 }
 #desktop-nav-projects {
@@ -145,8 +146,11 @@ nav ul li img {
   #mobile-nav-bottom {
     display: none;
   }
-  #desktop-nav-projects-link {
+  #desktop-nav-projects-link,
+  #desktop-nav-photos-link {
     display: block;
+    opacity: 0;
+    animation: navLoad 1s 0.7s ease-in-out forwards;
   }
   #desktop-nav-projects {
     width: 35%;
@@ -198,10 +202,5 @@ nav ul li img {
     width: 20px;
     height: 20px;
     margin-right: 5px;
-  }
-
-  #desktop-nav-projects-link {
-    opacity: 0;
-    animation: navLoad 1s 0.7s ease-in-out forwards;
   }
 }

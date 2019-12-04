@@ -52,7 +52,11 @@ export default class Nav extends Component {
             </span>
             <ul>
               <li id="nav-home" onClick={this.closeProjects}>
-                <Link to={"/"}>Home</Link>
+                {context.appState.devSite ? (
+                  <Link to={"/"}>Home</Link>
+                ) : (
+                  <Link to={"/content-creation"}>Home</Link>
+                )}
               </li>
               <li id="nav-about" onClick={this.closeProjects}>
                 <Link to={"/about"}>About</Link>
@@ -74,7 +78,7 @@ export default class Nav extends Component {
               ) : this.state.showProjects ? (
                 <PhotoCatagories closeProjects={this.closeProjects} />
               ) : (
-                <li id="desktop-nav-projects-link" onClick={this.openProjects}>
+                <li id="desktop-nav-photos-link" onClick={this.openProjects}>
                   Photos
                 </li>
               )}
