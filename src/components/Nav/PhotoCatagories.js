@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export default function PhotoCatagoies(props) {
   return (
-    <ul>
-      <li className='close-nav'>
+    <ul id="desktop-nav-projects">
+      <li className="close-nav">
         <i
           className="fas fa-times"
           samesite="none"
