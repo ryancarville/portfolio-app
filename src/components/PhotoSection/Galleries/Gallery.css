@@ -2,6 +2,7 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  text-align-last: center;
   opacity: 0;
   animation: fadeIn 2s forwards;
 }
@@ -19,7 +20,7 @@
 
 .spinner > img {
   margin-top: -800px;
-  width: 5%;
+  width: 50%;
 }
 .image-loaded {
   opacity: 0;
@@ -31,7 +32,9 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  width: 100%;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .masonry-grid_column {
   padding-left: 10px; /* gutter size */
@@ -45,4 +48,9 @@
   margin-bottom: 10px;
 
   width: 100%;
+}
+@media only screen and (min-width: 700px) {
+  .spinner > img {
+    width: 5%;
+  }
 }

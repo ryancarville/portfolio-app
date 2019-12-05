@@ -82,11 +82,14 @@ nav ul li img {
   opacity: 0;
   animation: navLoad 1s 1.7s ease-in-out forwards;
 }
+#toggle-swicth-containter a {
+  text-decoration: none;
+  color: purple;
+}
 #toggle-swicth-containter {
   position: relative;
   margin-top: 15px;
   margin-right: 20px;
-
   float: right;
   opacity: 0;
   animation: fadeIn 1s 3s ease-in-out forwards;

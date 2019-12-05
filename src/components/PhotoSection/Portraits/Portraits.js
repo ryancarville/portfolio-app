@@ -1,6 +1,6 @@
 import React from "react";
 import "./Portraits.css";
-import Gallery from "../Gallery";
+import Gallery from "../Galleries/Gallery";
 
 export default function Portraits(props) {
   return (

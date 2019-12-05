@@ -73,6 +73,6 @@ function MobileNav(props) {
       </li>
     </ul>
   );
-  return context.appState.devSite ? devProjects : photoCatagories;
+  return props.state.devSite ? devProjects : photoCatagories;
 }
 export default MobileNav;

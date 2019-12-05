@@ -1,6 +1,6 @@
 import React from "react";
 import "./Products.css";
-import Gallery from "../Gallery";
+import Gallery from "../Galleries/Gallery";
 export default function Products(props) {
   return (
     <section className="photo-section-wrapper">

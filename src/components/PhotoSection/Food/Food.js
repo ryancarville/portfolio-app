@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Food.css";
-import Gallery from "../Gallery";
+import Gallery from "../Galleries/Gallery";
 
 export default class Food extends Component {
   render() {

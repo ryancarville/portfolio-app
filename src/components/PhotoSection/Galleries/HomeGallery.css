@@ -1,0 +1,22 @@
+#home-gallery {
+  width: 80%;
+  height: 500px;
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+}
+#home-gallery img {
+  width: 100%;
+  animation: fadeInOut 9s 4.5s ease-in-out infinite;
+}
+@media only screen and (min-width: 700px) {
+  #home-gallery {
+    width: 100%;
+    margin-top: 100px;
+    margin-right: 200px;
+  }
+  #home-gallery img {
+    width: 60%;
+    height: auto;
+    animation: fadeInOut 9s 4.5s ease-in-out infinite;
+  }
+}

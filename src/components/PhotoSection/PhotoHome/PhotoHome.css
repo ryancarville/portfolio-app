@@ -1,17 +1,104 @@
 #photo-home-wrapper {
   width: 100%;
-  margin-top: 100px;
+  height: auto;
   text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
   opacity: 0;
   animation: fadeIn 2s 1s forwards;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+}
+#photo-home-text-background {
+  position: absolute;
+  transform: rotate(65deg);
+  background-color: purple;
+  width: 225%;
+  height: 130%;
+  margin-top: 70px;
+  z-index: -290343;
+  margin-top: 0px;
+  overflow: hidden;
+  margin-left: 0px;
+}
+
+#photo-home-content {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
 #photo-home-header h1 {
   font-size: 50px;
 }
+
 #photo-home-wrapper article {
+  position: relative;
+  width: 100%;
   line-height: 2em;
 }
+
 #photo-home-wrapper a {
   text-decoration: none;
   font-size: 18px;
+}
+
+@media only screen and (min-width: 700px) {
+  #photo-home-wrapper {
+    width: 90%;
+    height: 770px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0;
+    animation: fadeIn 2s 1s forwards;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #photo-home-text-background {
+    position: absolute;
+    transform: rotate(65deg);
+    background-color: purple;
+    width: 350%;
+    height: 130%;
+    z-index: -290343;
+    margin-top: 0px;
+    overflow: hidden;
+    margin-left: 700px;
+  }
+
+  #photo-home-content {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+  }
+  #photo-home-header h1 {
+    font-size: 50px;
+  }
+
+  #photo-home-wrapper article {
+    position: relative;
+    width: 100%;
+    line-height: 2em;
+  }
+
+  #photo-home-wrapper a {
+    text-decoration: none;
+    font-size: 18px;
+  }
 }
