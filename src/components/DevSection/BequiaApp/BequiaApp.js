@@ -53,11 +53,11 @@ export default class BequiaApp extends Component {
                 </p>
               )}
               <p className="project-text">
-                Bequia Forum is a Full Stack Platform Mobile-First developed for the
-                pituresque island of Bequia. Message boards, Events Calendar,
-                Market Place and more can be utilized by logged in users and
-                public users can read and search the app. Utilizes a RESTful API
-                partnered with a PostgreSQL Database.
+                Bequia Forum is a Full Stack Platform Mobile-First developed for
+                the pituresque island of Bequia. Message boards, Events
+                Calendar, Market Place and more can be utilized by logged in
+                users and public users can read and search the app. Utilizes a
+                RESTful API partnered with a PostgreSQL Database.
               </p>
             </span>
             <aside className="project-technologies">
@@ -82,7 +82,7 @@ export default class BequiaApp extends Component {
                 </div>
                 <div className="technology-item">
                   <img
-                    src="http://pluspng.com/img-png/nodejs-logo-png-node-js-on-light-background-1843.png"
+                    src="https://pluspng.com/img-png/nodejs-logo-png-node-js-on-light-background-1843.png"
                     alt="node-logo"
                     className="technologies-logo"
                   />
@@ -100,7 +100,7 @@ export default class BequiaApp extends Component {
                 </div>
                 <div className="technology-item">
                   <img
-                    src="http://onsongapp.s3.amazonaws.com/manual/f1afe3600cb3fbf441f5a9394c6c3b27.png"
+                    src="https://onsongapp.s3.amazonaws.com/manual/f1afe3600cb3fbf441f5a9394c6c3b27.png"
                     alt="html-logo"
                     className="technologies-logo"
                   />
