@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "./PhotoHome.css";
-import SiteContext from "../../SiteContext";
+import SiteContext from "../../../SiteContext";
 
 export default function PhotoHome(props) {
   const context = useContext(SiteContext);
