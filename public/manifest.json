@@ -9,37 +9,37 @@
     },
     {
       "src": "/images/bequia-logo.png",
-      "sizes": "204x156",
+      "size": "204x156",
       "type": "image/png"
     },
     {
       "src": "/images/camera.png",
-      "sizes": "340x340",
+      "size": "340x340",
       "type": "image/png"
     },
     {
       "src": "/images/headphones.png",
-      "sizes": "512x512",
+      "size": "512x512",
       "type": "image/png"
     },
     {
       "src": "/images/food.png",
-      "sizes": "512x512",
+      "size": "512x512",
       "type": "image/png"
     },
     {
       "src": "/images/portrait.png",
-      "sizes": "512x512",
+      "size": "512x512",
       "type": "image/png"
     },
     {
       "src": "/images/products.png",
-      "sizes": "512x512",
+      "size": "512x512",
       "type": "image/png"
     },
     {
       "src": "/images/not-found.jpg",
-      "sizes": "818x718",
+      "size": "818x718",
       "type": "image/jpg"
     }
   ],
