@@ -1,6 +1,6 @@
 import React from "react";
 import "./Portraits.css";
-import MakeImages from "../MakeImages";
+import Gallery from "../Gallery";
 
 export default function Portraits(props) {
   return (
@@ -8,7 +8,7 @@ export default function Portraits(props) {
       <header>
         <h1>Portraits</h1>
       </header>
-      <MakeImages folder="portriats" />
+      <Gallery folder="portriats" />
     </section>
   );
 }

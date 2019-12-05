@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Food.css";
-import MakeImages from "../MakeImages";
+import Gallery from "../Gallery";
 
 export default class Food extends Component {
   render() {
@@ -9,7 +9,7 @@ export default class Food extends Component {
         <header>
           <h1>Food</h1>
         </header>
-        <MakeImages folder="food" />
+        <Gallery folder="food" />
       </section>
     );
   }

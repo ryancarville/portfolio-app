@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import MobileNav from "./MobileNav";
-import "./Nav.css";
 import DevPorjects from "./DevProjects";
 import PhotoCatagories from "./PhotoCatagories";
+import MobileNav from "./MobileNav";
+import "./Nav.css";
+
 import SiteContext from "../../SiteContext";
 
 export default class Nav extends Component {

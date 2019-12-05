@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import SiteContext from "../../SiteContext";
-import "./Home.css";
+import SiteContext from "../../../SiteContext";
+import "./DevHome.css";
 
-export default class Home extends Component {
+export default class DevHome extends Component {
   constructor(props) {
     super(props);
     this.state = {
