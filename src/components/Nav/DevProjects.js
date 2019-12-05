@@ -15,7 +15,7 @@ export default class DevProjects extends Component {
         <li id="nav-project-1">
           <Link to={"/BequiaApp"}>
             <img
-              src="%PUBLIC_URL%/images/bequia-logo.png"
+              src="/images/bequia-logo.png"
               alt="forum-icon"
               samesite="none"
             />
@@ -24,18 +24,14 @@ export default class DevProjects extends Component {
         </li>
         <li id="nav-project-2">
           <Link to={"/PhotoGramApp"}>
-            <img
-              src="%PUBLIC_URL%/images/camera.png"
-              alt="logo"
-              samesite="none"
-            />
+            <img src="/images/camera.png" alt="logo" samesite="none" />
             PhotoGram
           </Link>
         </li>
         <li id="nav-project-3">
           <Link to={"/MusicQuizApp"}>
             <img
-              src="%PUBLIC_URL%/images/headphones.png"
+              src="/images/headphones.png"
               alt="who-dat-logo"
               samesite="none"
             />{" "}
