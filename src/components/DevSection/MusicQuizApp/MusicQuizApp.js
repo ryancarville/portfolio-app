@@ -82,7 +82,7 @@ export default class BequiaApp extends Component {
 
                 <div className="technology-item">
                   <img
-                    src="http://www.ecatechnologies.com/wp-content/uploads/2015/01/html5_websites.png"
+                    src="https://www.ecatechnologies.com/wp-content/uploads/2015/01/html5_websites.png"
                     alt="html-logo"
                     className="technologies-logo"
                   />

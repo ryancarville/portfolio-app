@@ -87,7 +87,7 @@ export default class BequiaApp extends Component {
                 </div>
                 <div className="technology-item">
                   <img
-                    src="http://pluspng.com/img-png/nodejs-logo-png-node-js-on-light-background-1843.png"
+                    src="https://pluspng.com/img-png/nodejs-logo-png-node-js-on-light-background-1843.png"
                     alt="node-logo"
                     className="technologies-logo"
                   />
@@ -105,7 +105,7 @@ export default class BequiaApp extends Component {
                 </div>
                 <div className="technology-item">
                   <img
-                    src="http://www.ecatechnologies.com/wp-content/uploads/2015/01/html5_websites.png"
+                    src="https://www.ecatechnologies.com/wp-content/uploads/2015/01/html5_websites.png"
                     alt="html-logo"
                     className="technologies-logo"
                   />
