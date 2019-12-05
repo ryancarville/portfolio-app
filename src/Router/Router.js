@@ -7,7 +7,7 @@ import BequiaApp from "../components/DevSection/BequiaApp/BequiaApp";
 import PhotoGramApp from "../components/DevSection/PhotoGramApp/PhotoGramApp";
 import MusicQuizApp from "../components/DevSection/MusicQuizApp/MusicQuizApp";
 
-import PhotoHome from "../components/PhotoHome/PhotoHome";
+import PhotoHome from "../components/PhotoSection/PhotoHome/PhotoHome";
 import Food from "../components/PhotoSection/Food/Food";
 import Portraits from "../components/PhotoSection/Portraits/Portraits";
 import Products from "../components/PhotoSection/Products/Products";
