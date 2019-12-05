@@ -25,26 +25,22 @@
     {
       "src": "/images/food.png",
       "sizes": "512x512",
-      "type": "image/png",
-      
+      "type": "image/png"
     },
     {
       "src": "/images/portrait.png",
       "sizes": "512x512",
-      "type": "image/png",
-      
+      "type": "image/png"
     },
     {
       "src": "/images/products.png",
       "sizes": "512x512",
-      "type": "image/png",
-      
+      "type": "image/png"
     },
     {
       "src": "/images/not-found.jpg",
       "sizes": "818x718",
-      "type": "image/jpg",
-      
+      "type": "image/jpg"
     }
   ],
   "start_url": ".",
