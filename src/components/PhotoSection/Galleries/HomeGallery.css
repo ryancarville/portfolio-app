@@ -1,7 +1,7 @@
 #home-gallery {
   width: 80%;
   height: 500px;
-  margin-top: 4rem;
+  margin-top: 1rem;
   padding-bottom: 2rem;
 }
 #home-gallery img {
@@ -12,7 +12,7 @@
   #home-gallery {
     width: 100%;
     height: 770px;
-    margin-top: 100px;
+    margin-top: 15rem;
     margin-right: 200px;
   }
   #home-gallery img {
