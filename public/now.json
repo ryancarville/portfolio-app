@@ -10,7 +10,10 @@
       "src": "/manifest.json",
       "dest": "/manifest.json"
     },
-    { "src": "/images", "dest": "/$1" },
+    {
+      "src": "/images",
+      "dest": "https://beardystudios.com/images/dev_site_images/"
+    },
     {
       "src": ".*",
       "dest": "/index.html"
