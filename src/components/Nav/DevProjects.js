@@ -17,14 +17,14 @@ export default class DevProjects extends Component {
             <img
               src="/images/bequia-logo.png"
               alt="forum-icon"
-              samesite="none"
+              
             />
             Bequia Forum
           </Link>
         </li>
         <li id="nav-project-2">
           <Link to={"/PhotoGramApp"}>
-            <img src="/images/camera.png" alt="logo" samesite="none" />
+            <img src="/images/camera.png" alt="logo"  />
             PhotoGram
           </Link>
         </li>
@@ -33,7 +33,7 @@ export default class DevProjects extends Component {
             <img
               src="/images/headphones.png"
               alt="who-dat-logo"
-              samesite="none"
+              
             />{" "}
             Music Quiz
           </Link>

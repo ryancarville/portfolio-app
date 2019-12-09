@@ -1,11 +1,8 @@
-import React, { useContext } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 import "./PhotoHome.css";
-import SiteContext from "../../../SiteContext";
 import HomeGallery from "../Galleries/HomeGallery";
 
 export default function PhotoHome(props) {
-  const context = useContext(SiteContext);
   return (
     <section id="photo-home-wrapper">
       <div id="photo-home-text-background"></div>

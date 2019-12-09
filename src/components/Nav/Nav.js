@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, Redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
 import DevPorjects from "./DevProjects";
 import PhotoCatagories from "./PhotoCatagories";
 import MobileNav from "./MobileNav";
@@ -75,7 +75,7 @@ export default class Nav extends Component {
           id="toggle-swicth-containter"
           onClick={() => this.closeProjects()}
         >
-          <Link to={sectionPath} className='site-view-link'>
+          <Link to={sectionPath} className="site-view-link">
             <div id={switchId} onClick={() => this.handleSiteView()}>
               <div id={toggleId}></div>
               {this.state.devSite ? (

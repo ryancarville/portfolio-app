@@ -1,6 +1,7 @@
 {
   "short_name": "Full-Stack-Portfolio",
   "name": "Ryan-Carville-Full-Stack-Portfolio",
+  "routes": [{ "src": "/manifest.json", "dest": "/manifest.json" }],
   "icons": [
     {
       "src": "/images/favicon.ico",
@@ -12,11 +13,7 @@
       "type": "image/png",
       "sizes": "204x156"
     },
-    {
-      "src": "/images/camera.png",
-      "type": "image/png",
-      "sizes": "340x340"
-    },
+
     {
       "src": "/images/headphones.png",
       "type": "image/png",
