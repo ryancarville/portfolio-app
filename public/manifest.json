@@ -7,6 +7,37 @@
       "src": "/images/favicon.ico",
       "type": "image/x-icon",
       "sizes": "64x64 32x32 24x24 16x16"
+    },
+    {
+      "src": "/images/bequia-logo.png",
+      "type": "image/png",
+      "sizes": "204x156"
+    },
+
+    {
+      "src": "/images/headphones.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/images/food.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/images/portrait.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/images/products.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/images/not-found.jpg",
+      "type": "image/jpg",
+      "sizes": "818x718"
     }
   ],
   "start_url": ".",
