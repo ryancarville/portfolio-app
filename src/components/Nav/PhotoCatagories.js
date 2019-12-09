@@ -14,7 +14,7 @@ export default function PhotoCatagoies(props) {
       <li id="nav-photo-1">
         <Link to={"/portraits"}>
           <img
-            src="https://beardystudios.com/images/dev_site_images/portrait.png"
+            src="https://beardystudios.com/images/dev_site_images/portrait.html"
             alt="portrait-icon"
           />{" "}
           Portrait

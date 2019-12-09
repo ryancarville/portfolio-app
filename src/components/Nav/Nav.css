@@ -29,7 +29,7 @@ nav {
   height: 50px;
   position: fixed;
   z-index: 10;
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 0.5s ease-in-out;
   background-color: white;
   top: 0;
   margin: 0;
@@ -62,25 +62,25 @@ nav ul li img {
 }
 .close-nav {
   opacity: 0;
-  animation: fadeIn 1s forwards;
+  animation: fadeIn 0.5s forwards;
 }
 #nav-home,
 #nav-project-1,
 #nav-photo-1 {
   opacity: 0;
-  animation: navLoad 1s 1s ease-in-out forwards;
+  animation: navLoad 0.5s ease-in-out forwards;
 }
 #nav-about,
 #nav-project-2,
 #nav-photo-2 {
   opacity: 0;
-  animation: navLoad 1s 1.3s ease-in-out forwards;
+  animation: navLoad 0.7s ease-in-out forwards;
 }
 #nav-contact,
 #nav-project-3,
 #nav-photo-3 {
   opacity: 0;
-  animation: navLoad 1s 1.7s ease-in-out forwards;
+  animation: navLoad 1s ease-in-out forwards;
 }
 #toggle-swicth-containter a {
   text-decoration: none;
@@ -92,7 +92,7 @@ nav ul li img {
   margin-right: 20px;
   float: right;
   opacity: 0;
-  animation: fadeIn 1s 3s ease-in-out forwards;
+  animation: fadeIn 0.5s ease-in-out forwards;
 }
 #dev-switch {
   width: 45px;
@@ -130,7 +130,7 @@ nav ul li img {
   margin-bottom: 2px;
   border: 1px solid black;
   background-color: slategrey;
-  animation: slideLeft 1s forwards;
+  animation: slideLeft 0.5s forwards;
 }
 #photo-toggle {
   width: 17px;
@@ -142,7 +142,7 @@ nav ul li img {
   border: 1px solid black;
   background-color: slategrey;
   float: right;
-  animation: slideRight 1s forwards;
+  animation: slideRight 0.5s forwards;
 }
 
 @media only screen and (min-width: 700px) {
@@ -153,7 +153,8 @@ nav ul li img {
   #desktop-nav-photos-link {
     display: block;
     opacity: 0;
-    animation: navLoad 1s 0.7s ease-in-out forwards;
+    animation: navLoad 0.5s ease-in-out forwards;
+    font-size: 20px;
   }
   #desktop-nav-projects {
     width: 35%;
@@ -164,21 +165,21 @@ nav ul li img {
     top: 0;
     margin: 0;
     padding: 0;
-    animation: fadeIn 1s ease-in-out;
   }
   #desktop-nav-projects li {
     cursor: pointer;
-    font-size: 15px;
+    font-size: 20px;
   }
   #desktop-nav-projects li a {
-    font-size: 15px;
+    font-size: 18px;
   }
   nav {
     width: 100%;
     height: 60px;
     position: fixed;
     z-index: 10;
-    animation: fadeIn 2s ease-in-out;
+    margin-left: 20px;
+    animation: fadeIn 0.5s ease-in-out;
   }
   nav ul {
     display: flex;
@@ -194,7 +195,7 @@ nav ul li img {
   }
   nav ul li a {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     display: flex;
     align-items: center;
   }
