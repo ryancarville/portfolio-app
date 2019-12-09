@@ -79,9 +79,13 @@ export default class Nav extends Component {
             <div id={switchId} onClick={() => this.handleSiteView()}>
               <div id={toggleId}></div>
               {this.state.devSite ? (
-                <i className="fas fa-camera-retro dev-photo-switch-icon"></i>
+                <>
+                  <i className="fas fa-camera-retro dev-photo-switch-icon"></i>
+                </>
               ) : (
-                <i className="fas fa-layer-group dev-photo-switch-icon"></i>
+                <>
+                  <i className="fas fa-layer-group dev-photo-switch-icon"></i>
+                </>
               )}
             </div>
           </Link>
