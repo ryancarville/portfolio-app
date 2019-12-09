@@ -15,27 +15,21 @@ export default class DevProjects extends Component {
         <li id="nav-project-1">
           <Link to={"/BequiaApp"}>
             <img
-              src="/images/bequia-logo.png"
+              src="https://beardystudios.com/images/dev_site_images/bequia-logo.png"
               alt="forum-icon"
-              
             />
             Bequia Forum
           </Link>
         </li>
         <li id="nav-project-2">
           <Link to={"/PhotoGramApp"}>
-            <img src="/images/camera.png" alt="logo"  />
+            <img src="/images/camera.png" alt="logo" />
             PhotoGram
           </Link>
         </li>
         <li id="nav-project-3">
           <Link to={"/MusicQuizApp"}>
-            <img
-              src="/images/headphones.png"
-              alt="who-dat-logo"
-              
-            />{" "}
-            Music Quiz
+            <img src="/images/headphones.png" alt="who-dat-logo" /> Music Quiz
           </Link>
         </li>
       </ul>
