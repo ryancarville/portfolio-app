@@ -10,7 +10,7 @@
       "src": "/manifest.json",
       "dest": "/manifest.json"
     },
-    { "src": "/images", "dest": "/images" },
+    { "src": "/images", "dest": "/$1" },
     {
       "src": ".*",
       "dest": "/index.html"
