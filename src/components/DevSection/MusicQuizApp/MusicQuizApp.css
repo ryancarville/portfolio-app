@@ -5,31 +5,23 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 250px;
+  height: 320px;
   position: relative;
   margin-top: 40px;
   bottom: 0;
 }
 #screenshot-music-quiz-mobile {
   background-image: url("./iphone.jpg");
-  background-size: 50%;
+  background-size: 40%;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 320px;
   position: relative;
   margin-top: 50px;
-
   bottom: 0;
 }
 
-.demo-select {
-  cursor: pointer;
-  border: 1px solid black;
-  width: 30%;
-  padding: 5px;
-  text-align: center;
-}
 .fadeIn {
   opacity: 0;
   animation: fadeIn 1s 1s ease-in-out forwards;
@@ -37,10 +29,10 @@
 @media only screen and (min-width: 700px) {
   #screenshot-music-quiz-desktop {
     background-image: url("./music-quiz-image.jpg");
-    background-size: 80%;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 1000px;
     height: auto;
     position: relative;
     margin-top: 50px;
@@ -48,22 +40,14 @@
   }
   #screenshot-music-quiz-mobile {
     background-image: url("./iphone.jpg");
-    background-size: 30%;
+    background-size: 36%;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 1000px;
     height: auto;
     position: relative;
     margin-top: 50px;
     bottom: 0;
-  }
-
-  .demo-select {
-    cursor: pointer;
-    border: 1px solid black;
-    width: 20%;
-    padding: 5px;
-    text-align: center;
   }
   .fadeIn {
     opacity: 0;

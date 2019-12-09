@@ -47,7 +47,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 10px;
+  padding-bottom: 5px;
 }
 .technology-item {
   width: 100%;
@@ -70,32 +70,38 @@
   align-items: center;
 }
 .git-hub-icon {
-  width: 15%;
+  width: 25%;
   margin-bottom: 10px;
 }
 .git-hub-links {
-  width: 70%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   font-size: 20px;
+  margin-bottom: 10px;
 }
 .git-hub-links a {
   text-decoration: none;
+  font-size: 25px;
+  color: slategray;
+  padding: 10px;
 }
 .project-link {
-  width: 50%;
-  height: 40px;
+  width: 100%;
+  height: 20px;
   border-radius: 20px;
   background-color: black;
   color: white;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   text-decoration: none;
+  padding: 30px;
+  margin-bottom: 50px;
 }
 .project-link p {
   padding: 0px;
@@ -191,7 +197,7 @@
     color: white;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 20px;
     display: flex;
     align-items: center;

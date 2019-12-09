@@ -15,7 +15,11 @@ export default class Contact extends Component {
         <p>
           You can email me{" "}
           <b>
-            <a href="mailto:ryancarville@gmail.com?subject=Hello from your awesome porfolio site!">
+            <a
+              href="mailto:ryancarville@gmail.com?subject=Hello from your awesome porfolio site!"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               here
             </a>
           </b>
