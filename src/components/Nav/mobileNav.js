@@ -6,20 +6,28 @@ function MobileNav(props) {
     <ul id="mobile-nav-bottom">
       <li id="nav-project-1">
         <Link to={"/BequiaApp"}>
-          <img src="/images/bequia-logo.png" alt="forum-icon" samesite="none" />
+          <img
+            src="https://beardystudios.com/images/dev_site_images/bequia-logo.png"
+            alt="forum-icon"
+            samesite="none"
+          />
           Bequia Forum
         </Link>
       </li>
       <li id="nav-project-2">
         <Link to={"/PhotoGramApp"}>
-          <img src="/images/camera.png" alt="logo" samesite="none" />
+          <img
+            src="https://beardystudios.com/images/dev_site_images/camera.png"
+            alt="logo"
+            samesite="none"
+          />
           PhotoGram
         </Link>
       </li>
       <li id="nav-project-3">
         <Link to={"/MusicQuizApp"}>
           <img
-            src="/images/headphones.png"
+            src="https://beardystudios.com/images/dev_site_images/headphones.png"
             alt="who-dat-logo"
             samesite="none"
           />{" "}
@@ -32,20 +40,32 @@ function MobileNav(props) {
     <ul id="mobile-nav-bottom">
       <li id="nav-project-2">
         <Link to={"/portraits"}>
-          <img src="/images/portrait.png" alt="logo" samesite="none" />
+          <img
+            src="https://beardystudios.com/images/dev_site_images/portrait.png"
+            alt="logo"
+            samesite="none"
+          />
           Portraits
         </Link>
       </li>
       <li id="nav-project-1">
         <Link to={"/food"}>
-          <img src="/images/food.png" alt="forum-icon" samesite="none" />
+          <img
+            src="https://beardystudios.com/images/dev_site_images/food.png"
+            alt="forum-icon"
+            samesite="none"
+          />
           Food
         </Link>
       </li>
 
       <li id="nav-project-3">
         <Link to={"/products"}>
-          <img src="/images/products.png" alt="who-dat-logo" samesite="none" />{" "}
+          <img
+            src="https://beardystudios.com/images/dev_site_images/products.png"
+            alt="who-dat-logo"
+            samesite="none"
+          />{" "}
           Products
         </Link>
       </li>

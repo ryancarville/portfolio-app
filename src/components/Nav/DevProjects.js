@@ -23,13 +23,20 @@ export default class DevProjects extends Component {
         </li>
         <li id="nav-project-2">
           <Link to={"/PhotoGramApp"}>
-            <img src="/images/camera.png" alt="logo" />
+            <img
+              src="https://beardystudios.com/images/dev_site_images/camera.png"
+              alt="logo"
+            />
             PhotoGram
           </Link>
         </li>
         <li id="nav-project-3">
           <Link to={"/MusicQuizApp"}>
-            <img src="/images/headphones.png" alt="who-dat-logo" /> Music Quiz
+            <img
+              src="https://beardystudios.com/images/dev_site_images/headphones.png"
+              alt="who-dat-logo"
+            />{" "}
+            Music Quiz
           </Link>
         </li>
       </ul>

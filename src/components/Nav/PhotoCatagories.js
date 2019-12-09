@@ -13,19 +13,30 @@ export default function PhotoCatagoies(props) {
       </li>
       <li id="nav-photo-1">
         <Link to={"/portraits"}>
-          <img src="/images/portrait.png" alt="portrait-icon" /> Portrait
+          <img
+            src="https://beardystudios.com/images/dev_site_images/portrait.png"
+            alt="portrait-icon"
+          />{" "}
+          Portrait
         </Link>
       </li>
       <li id="nav-photo-2">
         <Link to={"/food"}>
-          <img src="/images/food.png" alt="food-icon" />
+          <img
+            src="https://beardystudios.com/images/dev_site_images/food.png"
+            alt="food-icon"
+          />
           Food
         </Link>
       </li>
 
       <li id="nav-photo-3">
         <Link to={"/products"}>
-          <img src="/images/products.png" alt="products-icon" /> Product
+          <img
+            src="https://beardystudios.com/images/dev_site_images/products.png"
+            alt="products-icon"
+          />{" "}
+          Product
         </Link>
       </li>
     </ul>
