@@ -4,12 +4,12 @@
   "routes": [{ "src": "/manifest.json", "dest": "/manifest.json" }],
   "icons": [
     {
-      "src": "/images/favicon.ico",
+      "src": "/dev_site_images/favicon.ico",
       "type": "image/x-icon",
       "sizes": "64x64 32x32 24x24 16x16"
     },
     {
-      "src": "/images/bequia-logo.png",
+      "src": "/dev_site_images/bequia-logo.png",
       "type": "image/png",
       "sizes": "204x156"
     },
