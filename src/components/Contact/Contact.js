@@ -58,7 +58,7 @@ export default class Contact extends Component {
               rel="noopener noreferrer"
             >
               <img
-                src="http://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png"
+                src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png"
                 alt="linkedI-icon"
               />
             </a>
