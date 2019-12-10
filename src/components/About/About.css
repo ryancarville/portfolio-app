@@ -1,12 +1,14 @@
 #about-text {
   width: 85%;
-  
+
   text-align: left;
   line-height: 2em;
   font-size: 18px;
   color: black;
 }
-
+#about-header {
+  margin-top: 50px;
+}
 #about-text p a {
   text-decoration: none;
   color: grey;
@@ -57,7 +59,9 @@
     line-height: 2em;
     font-size: 20px;
   }
-
+  #about-header {
+    margin-top: 0px;
+  }
   #about-langs-items {
     width: 100%;
     display: flex;

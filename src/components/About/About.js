@@ -13,7 +13,7 @@ export default class About extends Component {
   render() {
     return (
       <section className="section-wrapper">
-        <header>
+        <header id="about-header">
           <h2>About Me</h2>
         </header>
         <article id="about-text">
