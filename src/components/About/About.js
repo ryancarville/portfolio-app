@@ -34,7 +34,10 @@ export default class About extends Component {
             . It provided me with a solid foundation in JavaScript, React,
             Node.js, PostgreSQL and many other technologies.
             <br />
-            Since then, I have
+            <br />
+            Today, I am activly looking to join as many teams and orginations to
+            make the web a better, more beautiful place. We are in this
+            together. Team work makes the dream work.
           </p>
 
           <article>
