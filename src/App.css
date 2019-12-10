@@ -4,6 +4,7 @@
   overflow: hidden;
 }
 .section-wrapper {
+  margin-top: 150px;
   width: 100%;
   height: auto;
   margin-top: 50px;
@@ -46,7 +47,7 @@
 .technology-wrapper {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auo-fill, 1fr);
   padding-bottom: 5px;
 }
 .technology-item {

@@ -38,9 +38,11 @@ export default class Nav extends Component {
     });
   };
   closeProjects = () => {
-    this.setState({
-      showProjects: false
-    });
+    setTimeout(() => {
+      this.setState({
+        showProjects: false
+      });
+    }, 500);
   };
   componentDidMount() {
     if (sessionStorage.getItem("siteView") === "dev") {
@@ -108,14 +110,18 @@ export default class Nav extends Component {
             this.state.showProjects ? (
               <DevPorjects closeProjects={this.closeProjects} />
             ) : (
-              <li id="desktop-nav-projects-link" onClick={this.openProjects}>
+              <li
+                id="desktop-nav-projects-link"
+                onMouseEnter={this.openProjects}
+                onClick={this.openProjects}
+              >
                 Projects
               </li>
             )
           ) : this.state.showProjects ? (
             <PhotoCatagories closeProjects={this.closeProjects} />
           ) : (
-            <li id="desktop-nav-photos-link" onClick={this.openProjects}>
+            <li id="desktop-nav-photos-link" onMouseEnter={this.openProjects}>
               Photos
             </li>
           )}

@@ -5,12 +5,8 @@ export default class DevProjects extends Component {
   render() {
     return (
       <ul id="desktop-nav-projects">
-        <li>
-          <i
-            className="fas fa-times"
-            samesite="none"
-            onClick={this.props.closeProjects}
-          ></i>
+        <li onClick={this.props.closeProjects}>
+          <i className="fas fa-times" samesite="none"></i>
         </li>
         <li id="nav-project-1">
           <Link to={"/BequiaApp"}>

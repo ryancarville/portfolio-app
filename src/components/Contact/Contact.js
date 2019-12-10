@@ -10,7 +10,7 @@ export default class Contact extends Component {
     return (
       <section className="section-wrapper contact-wrapper">
         <header>
-          <h2>Let's get to know eachother! </h2>
+          <h2>Let's get to know each other! </h2>
         </header>
         <p>
           You can email me{" "}
@@ -24,7 +24,7 @@ export default class Contact extends Component {
             </a>
           </b>
           <br />
-          Looking forwar to hearing from you!
+          Looking forward to hearing from you!
         </p>
 
         <section id="about-links">

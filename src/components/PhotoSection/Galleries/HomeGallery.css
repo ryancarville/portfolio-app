@@ -11,15 +11,15 @@
 @media only screen and (min-width: 700px) {
   #home-gallery {
     width: 100%;
-    height: auto;
-    margin-top: 12rem;
+    height: 900px;
+    padding-bottom: 50px;
+    margin-top: 6rem;
     margin-right: 100px;
     justify-content: space-between;
+    align-items: center;
   }
   #home-gallery img {
-    width: 80%;
-    height: auto;
-    margin-top: 0px;
+    width: 70%;
     animation: fadeInOut 9s 4.5s ease-in-out infinite;
   }
 }
