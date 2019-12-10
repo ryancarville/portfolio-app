@@ -3,6 +3,7 @@ import "./Portraits.css";
 import Gallery from "../Galleries/Gallery";
 
 export default function Portraits(props) {
+  window.scroll(0, 0);
   return (
     <section className="photo-section-wrapper">
       <header>

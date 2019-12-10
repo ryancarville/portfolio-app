@@ -13,7 +13,7 @@
   margin-top: 20%;
   margin-left: 10%;
   transform: rotate(-45deg);
-  box-shadow: rgb(0, 0, 0) -10px -5px  20px 20px;
+  box-shadow: rgb(0, 0, 0) -15px -10px 50px 20px;
 }
 #home-about-link {
   color: white;
@@ -74,16 +74,16 @@
 @media only screen and (min-width: 700px) {
   #home {
     display: block;
-    height: 720px;
+    height: auto;
     margin-top: -50px;
   }
   .color-box {
     margin-top: 0px;
     margin-left: -8%;
-    height: 100%;
+    padding: 275px;
     background-color: snow;
     transform: rotate(45deg);
-    box-shadow: rgb(0, 0, 0) -10px -10px  20px 20px;
+    box-shadow: rgb(0, 0, 0) -15px -10px 50px 20px;
   }
   #home-about-link {
     color: white;

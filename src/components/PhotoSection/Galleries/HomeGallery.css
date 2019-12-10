@@ -1,7 +1,7 @@
 #home-gallery {
   width: 100%;
   height: auto;
-  margin-top: 1rem;
+  margin-top: 0rem;
   padding-bottom: 2rem;
 }
 #home-gallery img {
@@ -15,7 +15,7 @@
     animation: fadeInOut 9s 4.5s ease-in-out infinite;
   }
   #home-gallery img {
-    width: 50%;
+    width: 70%;
     height: auto;
   }
 }

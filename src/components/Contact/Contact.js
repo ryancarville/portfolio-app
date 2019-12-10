@@ -59,7 +59,7 @@ export default class Contact extends Component {
             >
               <img
                 src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png"
-                alt="linkedI-icon"
+                alt="linkedIn-icon"
               />
             </a>
           </aside>

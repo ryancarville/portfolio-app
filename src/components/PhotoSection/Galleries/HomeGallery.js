@@ -22,6 +22,7 @@ export default class HomeGallery extends Component {
     }, 9000);
   };
   componentDidMount() {
+    window.scroll(0, 0);
     this.rotateImages();
   }
 
