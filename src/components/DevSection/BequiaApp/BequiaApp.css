@@ -9,6 +9,7 @@
   position: relative;
   margin-top: 40px;
   bottom: 0;
+  animation: fadeIn 1s ease-in-out forwards;
 }
 #screenshot-bequia-mobile {
   background-image: url("./iphone.jpg");
@@ -21,11 +22,11 @@
   margin-top: 50px;
   bottom: 0;
 }
-
 .fadeIn {
   opacity: 0;
-  animation: fadeIn 1s 1s ease-in-out forwards;
+  animation: fadeIn 0.5s ease-in-out forwards;
 }
+
 @media only screen and (min-width: 700px) {
   #screenshot-bequia-desktop {
     background-image: url("./bequia-forum-image.jpg");
@@ -37,6 +38,7 @@
     position: relative;
     margin-top: 50px;
     bottom: 0;
+    opacity: 0;
   }
   #screenshot-bequia-mobile {
     background-image: url("./iphone.jpg");
@@ -50,10 +52,5 @@
     bottom: 0;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .fadeIn {
-    opacity: 0;
-    animation: fadeIn 1s 1s ease-in-out forwards;
   }
 }
