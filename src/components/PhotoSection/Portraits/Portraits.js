@@ -9,7 +9,14 @@ export default function Portraits(props) {
       <header>
         <h1>Portraits</h1>
       </header>
-      <Gallery folder="portriats" />
+      <article>
+        <p>
+          Imortals. <br />
+          Time-capsules from sometime ago. I alwasy found the eyes to be
+          everyones best feature.
+        </p>
+      </article>
+      <Gallery section="portraits" folder="editorial" />
     </section>
   );
 }

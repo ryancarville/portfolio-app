@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import DevPorjects from "./DevProjects";
+import DevProjects from "./DevProjects";
 import PhotoCatagories from "./PhotoCatagories";
 import MobileNav from "./MobileNav";
 import "./Nav.css";
@@ -33,16 +33,18 @@ export default class Nav extends Component {
     );
   };
   openProjects = () => {
-    this.setState({
-      showProjects: true
-    });
+    setTimeout(() => {
+      this.setState({
+        showProjects: true
+      });
+    }, 200);
   };
   closeProjects = () => {
     setTimeout(() => {
       this.setState({
         showProjects: false
       });
-    }, 500);
+    }, 200);
   };
   componentDidMount() {
     if (sessionStorage.getItem("siteView") === "dev") {
@@ -108,7 +110,7 @@ export default class Nav extends Component {
           </li>
           {this.state.devSite ? (
             this.state.showProjects ? (
-              <DevPorjects closeProjects={this.closeProjects} />
+              <DevProjects closeProjects={this.closeProjects} />
             ) : (
               <li
                 id="desktop-nav-projects-link"

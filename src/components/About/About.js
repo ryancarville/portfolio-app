@@ -35,8 +35,7 @@ export default class About extends Component {
             Node.js, PostgreSQL and many other technologies.
             <br />
             <br />
-            Today, I am activly looking to join as many teams and orginations to
-            make the web a better, more beautiful place. We are in this
+            Today, I am actively looking to join a team to help make the web a better, more beautiful place. We are in this
             together. Team work makes the dream work.
           </p>
 

@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import Masonary from "react-masonry-css";
 import "./Gallery.css";
+import images from "../../../helper";
 
 function imagesLoaded(parentNode) {
   console.log(parentNode);
   const imgElements = document.getElementsByClassName("image");
   console.log(imgElements);
   for (const img of imgElements) {
-    console.log(img.complete);
     if (!img.complete) {
       return false;
     }
@@ -61,23 +61,34 @@ export default class Gallery extends Component {
   };
 
   componentDidMount() {
-    const images = [];
-    let i = 1;
-    while (i < 10) {
-      var image = {
-        url: `https://beardystudios.com/dev_site_images/${this.props.folder}/0${i}.jpg`,
-        alt: `${this.props.folder}-${i}`
-      };
-      images.push(image);
-      i++;
-    }
-
-    if (i === 10) {
-      this.setState({
-        images: images
-      });
+    const section = this.props.section;
+    const folder = this.props.folder;
+    for (let i = 0; i < images.length; i++) {
+      if (images[i].name === section) {
+        images[i].subs.forEach(sub => {
+          if (sub.name === folder) {
+            for (let j = 0; j <= sub.numOfImg; j++) {
+              var image = {
+                url:
+                  sub.image_data.url +
+                  `${folder}` +
+                  "/" +
+                  `${folder}_0${j}.jpg`,
+                alt: `${this.props.folder}-0${j}`
+              };
+              images.push(image);
+              if (j === sub.numOfImg) {
+                this.setState({
+                  images: images
+                });
+              }
+            }
+          }
+        });
+      }
     }
   }
+
   componentWillUnmount() {
     this.setState({
       images: []

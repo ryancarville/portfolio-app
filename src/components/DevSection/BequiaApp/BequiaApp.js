@@ -9,7 +9,7 @@ export default class BequiaApp extends Component {
       demo_size: "desktop"
     };
   }
-  handledemoSelect = () => {
+  handleDemoSelect = () => {
     this.setState({
       fadeIn: ""
     });
@@ -44,17 +44,17 @@ export default class BequiaApp extends Component {
             <span>
               <p className="project-title">Bequia Forum App</p>
               {this.state.demo_size === "desktop" ? (
-                <p className="demo-select" onClick={this.handledemoSelect}>
+                <p className="demo-select" onClick={this.handleDemoSelect}>
                   Mobile
                 </p>
               ) : (
-                <p className="demo-select" onClick={this.handledemoSelect}>
+                <p className="demo-select" onClick={this.handleDemoSelect}>
                   Desktop
                 </p>
               )}
               <p className="project-text">
                 Bequia Forum is a Full Stack Platform Mobile-First developed for
-                the pituresque island of Bequia. Message boards, Events
+                the picturesque island of Bequia. Message boards, Events
                 Calendar, Market Place and more can be utilized by logged in
                 users and public users can read and search the app. Utilizes a
                 RESTful API partnered with a PostgreSQL Database.
@@ -148,7 +148,8 @@ export default class BequiaApp extends Component {
               className="project-link"
               rel="noopener noreferrer"
             >
-              <i className="fas fa-external-link-alt" samesite="none" />
+              <i className="fas fa-external-link-alt" />
+
               <p>Live Site</p>
             </a>
           </div>

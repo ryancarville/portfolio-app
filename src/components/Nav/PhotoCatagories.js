@@ -39,6 +39,15 @@ export default function PhotoCatagoies(props) {
           Product
         </Link>
       </li>
+      <li id="nav-photo-3">
+        <Link to={"/products"}>
+          <img
+            src="https://beardystudios.com/images/dev_site_images/products.png"
+            alt="products-icon"
+          />{" "}
+          Earth
+        </Link>
+      </li>
     </ul>
   );
 }

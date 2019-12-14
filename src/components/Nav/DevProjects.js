@@ -6,7 +6,7 @@ export default class DevProjects extends Component {
     return (
       <ul id="desktop-nav-projects">
         <li onClick={this.props.closeProjects}>
-          <i className="fas fa-times" samesite="none"></i>
+          <i className="fas fa-times" ></i>
         </li>
         <li id="nav-project-1">
           <Link to={"/BequiaApp"}>

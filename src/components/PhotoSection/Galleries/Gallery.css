@@ -32,13 +32,18 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  width: 95%;
+  width: 100%;
+  margin-top: 3rem;
+  padding: 20px;
+
   margin-left: auto;
   margin-right: auto;
+  box-shadow: rgb(97, 97, 97) 0px 0px 10px 5px;
 }
 .masonry-grid_column {
-  padding-left: 10px; /* gutter size */
+  padding-left: 20px; /* gutter size */
   background-clip: padding-box;
+  margin-top: 3em;
 }
 
 /* Style your items */
@@ -46,9 +51,9 @@
   /* change div to reference your elements you put in <Masonry> */
   background: grey;
   margin-bottom: 10px;
-
   width: 100%;
 }
+
 @media only screen and (min-width: 700px) {
   .spinner > img {
     width: 5%;

@@ -49,13 +49,13 @@
 }
 
 #about-links img {
-  width: 100px;
-  margin: 10px;
+  width: 70px;
+  margin: 20px;
 }
 @media only screen and (min-width: 700px) {
   #about-text {
     width: 90%;
-    text-align: center;
+
     line-height: 2em;
     font-size: 20px;
   }

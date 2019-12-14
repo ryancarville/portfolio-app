@@ -10,7 +10,13 @@ export default class Food extends Component {
         <header>
           <h1>Food</h1>
         </header>
-        <Gallery folder="food" />
+        <article>
+          <p>
+            I hope you came hungry! <br />
+            Food is beautiful, emotional. Here are a few morsells to nibble on.{" "}
+          </p>
+        </article>
+        <Gallery section="food" folder="breakfest" />
       </section>
     );
   }
