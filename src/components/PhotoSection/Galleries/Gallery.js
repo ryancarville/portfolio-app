@@ -64,7 +64,6 @@ export default class Gallery extends Component {
     const section = this.props.section;
     const folder = this.props.folder;
     const data = images.filter(sec => sec.name === section);
-    console.log(data);
     data[0].subs.forEach(sub => {
       for (let i = 1; i <= sub.numOfImg; i++) {
         var image = {
