@@ -177,6 +177,7 @@ nav ul li img {
     opacity: 0;
     animation: navLoad 0.5s ease-in-out forwards;
     font-size: 18px;
+    cursor: pointer;
   }
   #desktop-nav-projects {
     width: 105%;
