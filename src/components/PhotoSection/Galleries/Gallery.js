@@ -75,7 +75,7 @@ export default class Gallery extends Component {
         madeImages.push(image);
       }
     });
-    if (madeImages.length > 0) {
+    if ((madeImages.length = 9)) {
       this.setState({
         images: madeImages
       });
