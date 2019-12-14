@@ -4,9 +4,8 @@ import "./Gallery.css";
 import images from "../../../helper";
 
 function imagesLoaded(parentNode) {
-  console.log(parentNode);
   const imgElements = document.getElementsByClassName("image");
-  console.log(imgElements);
+
   for (const img of imgElements) {
     if (!img.complete) {
       return false;
@@ -69,7 +68,7 @@ export default class Gallery extends Component {
     data[0].subs.forEach(sub => {
       for (let i = 1; i <= sub.numOfImg; i++) {
         var image = {
-          url: sub.image_data.url + `${folder}` + "/" + `0${i}.jpg`,
+          url: sub.image_data.url + `${folder}/0${i}.jpg`,
           alt: `${this.props.folder}-0${i}`
         };
         madeImages.push(image);

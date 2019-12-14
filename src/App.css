@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
+  width: 100%;
 }
 .section-wrapper {
   width: 100%;
@@ -121,7 +122,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
   }
   .project-title {
     font-size: 25px;

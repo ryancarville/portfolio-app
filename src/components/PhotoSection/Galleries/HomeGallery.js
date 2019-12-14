@@ -2,18 +2,6 @@ import React, { Component } from "react";
 import "./HomeGallery.css";
 
 
-function imagesLoaded(parentNode) {
-  console.log(parentNode);
-  const imgElements = document.getElementsByClassName("image");
-  console.log(imgElements);
-  for (const img of imgElements) {
-    console.log(img.complete);
-    if (!img.complete) {
-      return false;
-    }
-  }
-  return true;
-}
 export default class HomeGallery extends Component {
   constructor(props) {
     super(props);

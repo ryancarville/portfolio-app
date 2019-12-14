@@ -15,7 +15,9 @@
     animation: fadeInOut 9s 4.5s ease-in-out infinite;
   }
   #home-gallery img {
-    width: 70%;
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 50%;
     height: auto;
   }
 }

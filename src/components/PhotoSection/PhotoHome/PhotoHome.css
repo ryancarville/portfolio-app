@@ -72,7 +72,7 @@
     position: fixed;
     transform: rotate(20deg);
     box-shadow: rgb(0, 0, 0) -15px -10px 50px 20px;
-    width: 25rem;
+    width: 40rem;
     height: 130rem;
     z-index: -1;
     float: left;
@@ -84,13 +84,14 @@
 
   #photo-home-content {
     width: 60%;
+    
     padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-left: 5rem;
-    margin-right: 5em;
+    margin-left: 3rem;
+    margin-right: 2em;
     color: snow;
     overflow: visible;
   }

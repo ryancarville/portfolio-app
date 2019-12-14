@@ -13,6 +13,11 @@ export default class DevHome extends Component {
     };
   }
   rotateWords = () => {
+    this.setState({
+      startWordLoop: true,
+      classAnimation: "fadeIn"
+    });
+
     if (this.state.startWordLoop === true) {
       const words = ["creative", "curious", "courageous"];
       let i = 0;
@@ -29,10 +34,6 @@ export default class DevHome extends Component {
   };
   componentDidMount() {
     window.scrollTo(0, 0);
-    this.setState({
-      startWordLoop: true,
-      classAnimation: "fadeIn"
-    });
     setTimeout(() => {
       this.rotateWords();
     }, 50);
