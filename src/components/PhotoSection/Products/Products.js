@@ -8,9 +8,10 @@ export default function Products(props) {
       <header>
         <h1>Products</h1>
       </header>
-      <article><p>
-      Your things! </p></article>
-      <Gallery folder="products" />
+      <article>
+        <p>Your things! </p>
+      </article>
+      <Gallery section="products" folder="products" />
     </section>
   );
 }

@@ -61,31 +61,24 @@ export default class Gallery extends Component {
   };
 
   componentDidMount() {
+    var madeImages = [];
     const section = this.props.section;
     const folder = this.props.folder;
-    for (let i = 0; i < images.length; i++) {
-      if (images[i].name === section) {
-        images[i].subs.forEach(sub => {
-          if (sub.name === folder) {
-            for (let j = 0; j <= sub.numOfImg; j++) {
-              var image = {
-                url:
-                  sub.image_data.url +
-                  `${folder}` +
-                  "/" +
-                  `${folder}_0${j}.jpg`,
-                alt: `${this.props.folder}-0${j}`
-              };
-              images.push(image);
-              if (j === sub.numOfImg) {
-                this.setState({
-                  images: images
-                });
-              }
-            }
-          }
-        });
+    const data = images.filter(sec => sec.name === section);
+    console.log(data);
+    data[0].subs.forEach(sub => {
+      for (let i = 1; i <= sub.numOfImg; i++) {
+        var image = {
+          url: sub.image_data.url + `${folder}` + "/" + `0${i}.jpg`,
+          alt: `${this.props.folder}-0${i}`
+        };
+        madeImages.push(image);
       }
+    });
+    if (madeImages.length > 0) {
+      this.setState({
+        images: madeImages
+      });
     }
   }
 

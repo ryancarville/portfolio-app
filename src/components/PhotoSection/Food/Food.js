@@ -13,10 +13,10 @@ export default class Food extends Component {
         <article>
           <p>
             I hope you came hungry! <br />
-            Food is beautiful, emotional. Here are a few morsells to nibble on.{" "}
+            Food is beautiful, emotional. Here are a few morsels to nibble on.{" "}
           </p>
         </article>
-        <Gallery section="food" folder="breakfest" />
+        <Gallery section="food" folder="food" />
       </section>
     );
   }

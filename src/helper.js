@@ -24,7 +24,28 @@ const images = [
     name: "portraits",
     subs: [
       {
-        name: "editorial",
+        name: "portraits",
+        numOfImg: 9,
+        image_data: {
+          id: 0,
+          url: "https://beardystudios.com/dev_site_images/"
+        }
+      },
+      {
+        name: "normal",
+        numOfImg: 9,
+        image_data: {
+          id: 0,
+          url: "https://beardystudios.com/dev_site_images/"
+        }
+      }
+    ]
+  },
+  {
+    name: "products",
+    subs: [
+      {
+        name: "products",
         numOfImg: 9,
         image_data: {
           id: 0,

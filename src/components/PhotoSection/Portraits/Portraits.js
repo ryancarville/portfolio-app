@@ -11,12 +11,11 @@ export default function Portraits(props) {
       </header>
       <article>
         <p>
-          Imortals. <br />
-          Time-capsules from sometime ago. I alwasy found the eyes to be
-          everyones best feature.
+          Time-capsules from sometime ago. I always found the eyes to be every
+          ones best feature.
         </p>
       </article>
-      <Gallery section="portraits" folder="editorial" />
+      <Gallery section="portraits" folder="portraits" />
     </section>
   );
 }
