@@ -16,24 +16,24 @@
 }
 @-webkit-keyframes fadeInOut {
   0% {
-    -webkit-opacity: 1;
-  }
-  50% {
     -webkit-opacity: 0;
   }
-  100% {
+  50% {
     -webkit-opacity: 1;
+  }
+  100% {
+    -webkit-opacity: 0;
   }
 }
 @keyframes fadeInOut {
   0% {
-    opacity: 1;
-  }
-  50% {
     opacity: 0;
   }
-  100% {
+  50% {
     opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 @-webkit-keyframes flyFromRight {
