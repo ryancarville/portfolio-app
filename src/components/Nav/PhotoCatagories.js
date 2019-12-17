@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function PhotoCatagoies(props) {
   return (
     <>
-      <li className="close-nav desktop-nav-projects">
-        <i className="fas fa-times" onClick={props.closeProjects}></i>
+      <li className="close-nav" onClick={props.closeProjects}>
+        <i className="fas fa-times"></i>
       </li>
       <li id="nav-photo-1">
         <Link to={"/portraits"}>

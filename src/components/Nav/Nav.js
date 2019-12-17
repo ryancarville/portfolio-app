@@ -79,15 +79,21 @@ export default class Nav extends Component {
           id="toggle-swicth-containter"
           onClick={() => this.closeProjects()}
         >
-          <div id={switchId} onClick={() => this.handleSiteView()}>
+          <div id={switchId}>
             <div id={toggleId}></div>
             {this.state.devSite ? (
               <Link to={sectionPath} className="site-view-link">
-                <i className="fas fa-camera-retro dev-photo-switch-icon"></i>
+                <i
+                  className="fas fa-camera-retro dev-photo-switch-icon"
+                  onClick={() => this.handleSiteView()}
+                ></i>
               </Link>
             ) : (
               <Link to={sectionPath} className="site-view-link">
-                <i className="fas fa-layer-group dev-photo-switch-icon"></i>
+                <i
+                  className="fas fa-layer-group dev-photo-switch-icon"
+                  onClick={() => this.handleSiteView()}
+                ></i>
               </Link>
             )}
           </div>

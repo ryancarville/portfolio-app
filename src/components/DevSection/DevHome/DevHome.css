@@ -39,14 +39,13 @@
 #home header {
   margin-top: 25%;
   color: white;
-  transition-duration: 2s;
 }
 #home-hello {
   font-size: 40px;
   margin: 0;
   transform: rotate(25deg);
   transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335);
-  animation: flyFromRight 2s forwards;
+  animation: flyFromRight 3s forwards;
 }
 #waving-hand-emoji {
   display: inline-block;
@@ -59,6 +58,8 @@
   margin-bottom: 20px;
   width: 100%;
   text-align: right;
+  opacity: 0;
+  animation: fadeIn 2s 1s forwards;
 }
 #a-in-tag {
   text-align-last: right;
@@ -109,7 +110,6 @@
   #home header {
     margin-top: 13rem;
     margin-right: 10rem;
-    animation: flyFromRight 2s 0.5s ease-in-out;
   }
   #home-hello {
     font-size: 40px;
