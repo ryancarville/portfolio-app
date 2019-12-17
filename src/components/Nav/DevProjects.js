@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 export default class DevProjects extends Component {
   render() {
     return (
-      <ul id="desktop-nav-projects">
+      <>
         <li onClick={this.props.closeProjects}>
-          <i className="fas fa-times" ></i>
+          <i className="fas fa-times"></i>
         </li>
-        <li id="nav-project-1">
+        <li className="nav-project-1">
           <Link to={"/BequiaApp"}>
             <img
               src="https://beardystudios.com/images/dev_site_images/bequia-logo.png"
@@ -17,7 +17,7 @@ export default class DevProjects extends Component {
             Bequia Forum
           </Link>
         </li>
-        <li id="nav-project-2">
+        <li className="nav-project-2">
           <Link to={"/PhotoGramApp"}>
             <img
               src="https://beardystudios.com/images/dev_site_images/camera.png"
@@ -26,7 +26,7 @@ export default class DevProjects extends Component {
             PhotoGram
           </Link>
         </li>
-        <li id="nav-project-3">
+        <li className="nav-project-3">
           <Link to={"/MusicQuizApp"}>
             <img
               src="https://beardystudios.com/images/dev_site_images/headphones.png"
@@ -35,7 +35,7 @@ export default class DevProjects extends Component {
             Music Quiz
           </Link>
         </li>
-      </ul>
+      </>
     );
   }
 }

@@ -49,7 +49,6 @@ export default class Gallery extends Component {
     return (
       <img
         key={img.alt}
-        loading="eager"
         onLoad={this.handleStateChange}
         onError={this.handleStateChange}
         src={img.url}

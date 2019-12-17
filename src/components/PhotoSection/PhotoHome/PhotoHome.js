@@ -14,8 +14,8 @@ export default function PhotoHome(props) {
           <article>
             Image creation was my first true love. With over 10 years of
             experience in the commercial advertising and e-commerce industries,
-            I obtain a vast knowledge on how to bring your brand imaging to life
-            on the web.
+            I obtained a vast knowledge on how to bring your brand imaging to
+            life on the web.
           </article>
           <div id="photo-home-text-background"></div>
         </aside>

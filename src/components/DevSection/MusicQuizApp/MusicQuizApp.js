@@ -47,27 +47,26 @@ export default class BequiaApp extends Component {
             />
           )}
           <div className="project-info">
-            <span>
-              <p className="project-title">Music Quiz App</p>
-              {this.state.demo_size === "desktop" ? (
-                <p className="demo-select" onClick={this.handledemoSelect}>
-                  Mobile
-                </p>
-              ) : (
-                <p className="demo-select" onClick={this.handledemoSelect}>
-                  Desktop
-                </p>
-              )}
-              <p className="project-text">
-                Music Quiz App is a pure JavaScript Mobile-First app paired with
-                the Napster API. Multiple game modes and music genres selections
-                from todays top hits to the classic rock n' roll oldies. Hours
-                of fun with friends and family!
+            <h1 className="project-title">Music Quiz App</h1>
+            {this.state.demo_size === "desktop" ? (
+              <p className="demo-select" onClick={this.handledemoSelect}>
+                Mobile
               </p>
-            </span>
+            ) : (
+              <p className="demo-select" onClick={this.handledemoSelect}>
+                Desktop
+              </p>
+            )}
+            <p className="project-text">
+              Music Quiz App is a pure JavaScript Mobile-First app paired with
+              the Napster API. Multiple game modes and music genres selections
+              from todays top hits to the classic rock n' roll oldies. Hours of
+              fun with friends and family!
+            </p>
+
             <br />
             <br />
-            <span className="project-technologies">
+            <aside className="project-technologies">
               <p>Technologies</p>
               <div className="technology-wrapper">
                 <div className="technology-item">
@@ -99,7 +98,7 @@ export default class BequiaApp extends Component {
                   <p>CSS5</p>
                 </div>
               </div>
-            </span>
+            </aside>
 
             <span className="git-hub-wrapper">
               <img
@@ -124,7 +123,7 @@ export default class BequiaApp extends Component {
               className="project-link"
               rel="noopener noreferrer"
             >
-              <i className="fas fa-external-link-alt" samesite="none" />
+              <i className="fas fa-external-link-alt" />
               <p>Live Site</p>
             </a>
           </div>

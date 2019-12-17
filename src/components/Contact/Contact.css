@@ -13,5 +13,16 @@
   text-decoration: none;
   display: inline-block;
   opacity: 0;
-  animation: navLoad 01s 1s ease-in-out forwards;
+  animation: navLoad 1s 1s ease-in-out forwards;
+  cursor: pointer;
+}
+
+.code-links a {
+  transform: scale(1);
+}
+.code-links a :hover {
+  transform: scale(1.4);
+  transition-duration: 2s;
+
+  transition-timing-function: cubic-bezier(0, 0.775, 0.3, 1);
 }

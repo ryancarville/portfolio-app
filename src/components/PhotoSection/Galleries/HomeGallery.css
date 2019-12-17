@@ -7,7 +7,7 @@
 #home-gallery img {
   width: 100%;
   opacity: 0;
-  transition-timing-function: cubic-bezier(143, 032, 0.03, 1);
+  transition-timing-function: cubic-bezier(0, 0.32, 0.03, 1);
   animation: fadeInOut 6s ease-in-out infinite forwards;
 }
 @media only screen and (min-width: 700px) {

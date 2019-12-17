@@ -47,25 +47,24 @@ export default class BequiaApp extends Component {
             />
           )}
           <div className="project-info">
-            <span>
-              <p className="project-title">PhotoGram App</p>
-              {this.state.demo_size === "desktop" ? (
-                <p className="demo-select" onClick={this.handledemoSelect}>
-                  Mobile
-                </p>
-              ) : (
-                <p className="demo-select" onClick={this.handledemoSelect}>
-                  Desktop
-                </p>
-              )}
-              <p className="project-text">
-                PhotoGram is a Full Stack Mobile-First Web App for private photo
-                archiving. Features include album creation, taging and
-                captioning all images. Utilizes a RESTful API partnered with a
-                PostgreSQL Database and JWT Authentication.
+            <h1 className="project-title">PhotoGram App</h1>
+            {this.state.demo_size === "desktop" ? (
+              <p className="demo-select" onClick={this.handledemoSelect}>
+                Mobile
               </p>
-            </span>
-            <span className="project-technologies">
+            ) : (
+              <p className="demo-select" onClick={this.handledemoSelect}>
+                Desktop
+              </p>
+            )}
+            <p className="project-text">
+              PhotoGram is a Full Stack Mobile-First Web App for private photo
+              archiving. Features include album creation, taging and captioning
+              all images. Utilizes a RESTful API partnered with a PostgreSQL
+              Database and JWT Authentication.
+            </p>
+
+            <aside className="project-technologies">
               <p>Technologies</p>
               <div className="technology-wrapper">
                 <div className="technology-item">
@@ -122,7 +121,7 @@ export default class BequiaApp extends Component {
                   <p>CSS5</p>
                 </div>
               </div>
-            </span>
+            </aside>
 
             <span className="git-hub-wrapper">
               <img
@@ -153,7 +152,7 @@ export default class BequiaApp extends Component {
               className="project-link"
               rel="noopener noreferrer"
             >
-              <i className="fas fa-external-link-alt" samesite="none" />
+              <i className="fas fa-external-link-alt" />
               <p>Live Site</p>
             </a>
           </div>

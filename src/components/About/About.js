@@ -35,8 +35,9 @@ export default class About extends Component {
             Node.js, PostgreSQL and many other technologies.
             <br />
             <br />
-            Today, I am actively looking to join a team to help make the web a better, more beautiful place. We are in this
-            together. Team work makes the dream work.
+            Today, I am actively looking to join a team to help make the web a
+            better, more beautiful place. We are in this together. Team work
+            makes the dream work.
           </p>
 
           <article>
@@ -104,7 +105,7 @@ export default class About extends Component {
             <header>
               <h3>Online Docs and Profiles</h3>
             </header>
-            <aside>
+            <aside className="code-links">
               <a
                 href="https://drive.google.com/file/d/1pVjLfVzL4eDhskmRPgLazZFr6PuXtT8M/view?usp=sharing"
                 target="_blank"

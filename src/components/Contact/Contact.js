@@ -16,7 +16,7 @@ export default class Contact extends Component {
           You can email me{" "}
           <b>
             <a
-              href="mailto:ryancarville@gmail.com?subject=Hello from your awesome porfolio site!"
+              href="mailto:ryancarville@gmail.com?subject=Hello%20from%20your%20awesome%20porfolio%20site!"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -31,7 +31,7 @@ export default class Contact extends Component {
           <header>
             <h3>Online Docs and Profiles</h3>
           </header>
-          <aside>
+          <aside className="code-links">
             <a
               href="https://drive.google.com/file/d/1pVjLfVzL4eDhskmRPgLazZFr6PuXtT8M/view?usp=sharing"
               target="_blank"

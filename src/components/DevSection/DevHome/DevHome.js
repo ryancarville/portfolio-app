@@ -15,7 +15,7 @@ export default class DevHome extends Component {
   rotateWords = () => {
     this.setState({
       startWordLoop: true,
-      classAnimation: "fadeIn"
+      classAnimation: ""
     });
 
     if (this.state.startWordLoop === true) {
@@ -57,9 +57,7 @@ export default class DevHome extends Component {
               I'm Ryan
             </p>
             <p id="home-tag">
-              <span id="a-in-tag" width="10">
-                A
-              </span>
+              <span id="a-in-tag">A</span>
               <span id="adjective-in-tag">
                 <b>{this.state.adjective}</b>
               </span>{" "}

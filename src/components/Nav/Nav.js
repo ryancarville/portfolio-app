@@ -75,25 +75,23 @@ export default class Nav extends Component {
       : (sectionPath = "/");
     return (
       <nav>
-        <span
+        <section
           id="toggle-swicth-containter"
           onClick={() => this.closeProjects()}
         >
-          <Link to={sectionPath} className="site-view-link">
-            <div id={switchId} onClick={() => this.handleSiteView()}>
-              <div id={toggleId}></div>
-              {this.state.devSite ? (
-                <>
-                  <i className="fas fa-camera-retro dev-photo-switch-icon"></i>
-                </>
-              ) : (
-                <>
-                  <i className="fas fa-layer-group dev-photo-switch-icon"></i>
-                </>
-              )}
-            </div>
-          </Link>
-        </span>
+          <div id={switchId} onClick={() => this.handleSiteView()}>
+            <div id={toggleId}></div>
+            {this.state.devSite ? (
+              <Link to={sectionPath} className="site-view-link">
+                <i className="fas fa-camera-retro dev-photo-switch-icon"></i>
+              </Link>
+            ) : (
+              <Link to={sectionPath} className="site-view-link">
+                <i className="fas fa-layer-group dev-photo-switch-icon"></i>
+              </Link>
+            )}
+          </div>
+        </section>
         <ul>
           <li id="nav-home" onClick={this.closeProjects}>
             {this.state.devSite ? (
