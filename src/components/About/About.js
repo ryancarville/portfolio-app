@@ -18,12 +18,12 @@ export default class About extends Component {
         </header>
         <article id="about-text">
           <p>
-            I am Ryan, a self starting, creative mind currently based in Zurich,
+            I am Ryan, a self-starting, creative mind currently based in Zurich,
             Switzerland. After creating two successful commercial photography
             studios in New York City and San Francisco, I began to see the
             importance of development as it was becoming a larger part of the
             photography industry. In 2018, I began the journey into the web
-            development space by joining the Full Stack Wed Developers course at{" "}
+            development space by joining the Full Stack Web Developers course at{" "}
             <a
               href="https://www.thinkful.com/"
               target="_blank"
@@ -36,7 +36,7 @@ export default class About extends Component {
             <br />
             <br />
             Today, I am actively looking to join a team to help make the web a
-            better, more beautiful place. We are in this together. Team work
+            better, more beautiful place. We are in this together. Teamwork
             makes the dream work.
           </p>
 
